@@ -4,9 +4,9 @@
 #       unittitle OR unitid OR container OR unitdate + daodesc if it has a defined replacement value
 fix_for "dao-1" do
   @xml.xpath("//dao[not(@xlink:title)]").each do |el|
-    parent = el.at_xpath("./parent::did|
-                          ./parent::c|
-                          ./parent::archdesc")
+    parent = el.xpath("ancestor::did|ancestor::c|ancestor::archdesc").last
+    raise Fixes::Failure.new('No suitable parent found to take title from.') unless parent
+
     did = (parent.name == 'did') ? parent : parent.at_xpath('./did')
     daodesc = el.at_xpath('./daodesc')
 
@@ -39,13 +39,14 @@ fix_for "dao-1" do
                   raise Fixes::Failure.new("Couldn't find proxy for title amongst `..[did]/unittitle|unitid|container|unitdate`")
                 end
         title = title.gsub(/\s+/, ' ').strip.chomp('.')
-        title += " " + appendage
+        title += appendage if appendage
       else
         raise Fixes::Failure.new("Direct parent of `dao` is not `did`")
       end
     end
     el['xlink:title'] = title
   end
+
 end
 
 # Hash of "canonical" <daodesc> values, where:
@@ -112,15 +113,10 @@ unless defined?(::Fixes::CANONICAL_GENERIC_DAODESC_VALUES) == "constant"
     /\ADigital images available.\.?\z/ => nil,
     /\ADigital surrogate available\.?\z/ => nil,
     /\ADigital surrogate available here\.?\z/ => nil,
-    /\ADigitized version available for viewing on archive.org\.?\z/ => nil,
-    /\ADigitized version available for viewing on YouTube\.?\z/ => nil,
     /\ADigitized version available for viewing online\.?\z/ => nil,
-    /\AFor a full description consult HOLLIS \.?\z/ => nil,
     /\AFull-size online image\.?\z/ => nil,
     /\AGo to digital images\.?\z/ => nil,
     /\AListen to audio file\.?\z/ => ": Audio file",
-    /\ANetworked resource available to users with a valid Harvard ID\.?\z/ => nil,
-    /\AOther digitized versions available for listening through Pacific Film Archive Audio Recordings Collection on archive.org\.?\z/ => nil,
     /\ARecto: Click for color digital image\.?\z/ => ": Recto",
     /\ASee archived web site\.?\z/ => nil,
     /\ASee digital facsimile\.?\z/ => nil,
@@ -130,5 +126,17 @@ unless defined?(::Fixes::CANONICAL_GENERIC_DAODESC_VALUES) == "constant"
     /\ASee selected digital images\.?\z/ => ": Selected images",
     /\AVerso: Click for color digital image\.?\z/ => ": Verso",
     /\AVerso: click for larger view\.?\z/ => ": Verso"
+  }
+
+end
+
+unless defined?(::Fixes::CANONICAL_GENERIC_DD_VALUES_WITH_COMPLEX_BEHAVIOR) == 'constant'
+  ::Fixes::CANONICAL_GENERIC_DD_VALUES_WITH_COMPLEX_BEHAVIOR = {
+    /\ANetworked resource available to users with a valid Harvard ID\.?\z/ => nil, # should be accessrestrict?
+    /\AFor a full description consult HOLLIS \.?\z/ => nil,                        # shoult be extref
+    # Rest Should be relatedmaterials/extref?
+    /\ADigitized version available for viewing on archive.org\.?\z/ => nil,
+    /\ADigitized version available for viewing on YouTube\.?\z/ => nil,
+    /\AOther digitized versions available for listening through Pacific Film Archive Audio Recordings Collection on archive.org\.?\z/ => nil
   }
 end

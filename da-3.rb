@@ -1,8 +1,8 @@
 # move descgrp subelements of various types to parent of descgrp, remove descgrp if empty
-fix_for 'da-2' do
+fix_for 'da-3' do
   path = "//descgrp[@type and @type != 'add']/accessrestrict|
           //descgrp[@type and @type != 'add']/accruals|
-          //descgrp[@type and @type != 'add']/acquinfo|
+          //descgrp[@type and @type != 'add']/acqinfo|
           //descgrp[@type and @type != 'add']/altformavail|
           //descgrp[@type and @type != 'add']/appraisal|
           //descgrp[@type and @type != 'add']/custodhist|
