@@ -1,5 +1,5 @@
 # move descgrp subelements of various types to parent of descgrp, remove descgrp if empty
-fix_for 'da-3' do
+fix_for 'da-3', depends_on: ['noempty-1']  do
   path = "//descgrp[@type and @type != 'add']/accessrestrict|
           //descgrp[@type and @type != 'add']/accruals|
           //descgrp[@type and @type != 'add']/acqinfo|

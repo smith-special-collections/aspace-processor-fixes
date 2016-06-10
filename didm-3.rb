@@ -1,4 +1,4 @@
-fix_for "didm-3", depends_on: ['dua-1'] do
+fix_for "didm-3", depends_on: ['dua-1', 'noempty-1'] do
   uds = @xml.xpath('//unitdate[@normal]')
 
   if uds.empty?

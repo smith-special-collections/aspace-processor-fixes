@@ -2,7 +2,7 @@
 # 1. daodesc if it doesn't match a list of generic values
 # .. if did (or ../did if c or archdesc) >
 #       unittitle OR unitid OR container OR unitdate + daodesc if it has a defined replacement value
-fix_for "dao-1" do
+fix_for "dao-1", depends_on: ['noempty-1']  do
   @xml.xpath("//dao[not(@xlink:title)]").each do |el|
     parent = el.xpath("ancestor::did|ancestor::c|ancestor::archdesc").last
     raise Fixes::Failure.new('No suitable parent found to take title from.') unless parent
