@@ -1,15 +1,15 @@
 # move descgrp subelements of various types to parent of descgrp, remove descgrp if empty
 fix_for 'da-3', depends_on: ['noempty-1']  do
-  path = "//descgrp[@type and @type != 'add']/accessrestrict|
-          //descgrp[@type and @type != 'add']/accruals|
-          //descgrp[@type and @type != 'add']/acqinfo|
-          //descgrp[@type and @type != 'add']/altformavail|
-          //descgrp[@type and @type != 'add']/appraisal|
-          //descgrp[@type and @type != 'add']/custodhist|
-          //descgrp[@type and @type != 'add']/note|
-          //descgrp[@type and @type != 'add']/prefercite|
-          //descgrp[@type and @type != 'add']/processinfo|
-          //descgrp[@type and @type != 'add']/userestrict"
+  path = "//descgrp[(@type and @type != 'add') or (not(normalize-space(@type)) and @encodingAnalog = '544')]/accessrestrict|
+          //descgrp[(@type and @type != 'add') or (not(normalize-space(@type)) and @encodingAnalog = '544')]/accruals|
+          //descgrp[(@type and @type != 'add') or (not(normalize-space(@type)) and @encodingAnalog = '544')]/acqinfo|
+          //descgrp[(@type and @type != 'add') or (not(normalize-space(@type)) and @encodingAnalog = '544')]/altformavail|
+          //descgrp[(@type and @type != 'add') or (not(normalize-space(@type)) and @encodingAnalog = '544')]/appraisal|
+          //descgrp[(@type and @type != 'add') or (not(normalize-space(@type)) and @encodingAnalog = '544')]/custodhist|
+          //descgrp[(@type and @type != 'add') or (not(normalize-space(@type)) and @encodingAnalog = '544')]/note|
+          //descgrp[(@type and @type != 'add') or (not(normalize-space(@type)) and @encodingAnalog = '544')]/prefercite|
+          //descgrp[(@type and @type != 'add') or (not(normalize-space(@type)) and @encodingAnalog = '544')]/processinfo|
+          //descgrp[(@type and @type != 'add') or (not(normalize-space(@type)) and @encodingAnalog = '544')]/userestrict"
   @xml.xpath(path).each do |el|
     descgrp = el.parent
     el.parent = descgrp.parent

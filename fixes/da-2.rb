@@ -1,10 +1,10 @@
 # move descgrp subelements of various types to odd in parent of descgrp, remove descgrp if empty
 fix_for 'da-2', depends_on: ['noempty-1']  do
-  path = "//descgrp[@type and @type != 'add']/address|
-          //descgrp[@type and @type != 'add']/blockquote|
-          //descgrp[@type and @type != 'add']/chronlist|
-          //descgrp[@type and @type != 'add']/list|
-          //descgrp[@type and @type != 'add']/p"
+  path = "//descgrp[(@type and @type != 'add') or (not(normalize-space(@type)) and @encodingAnalog = '544')]/address|
+          //descgrp[(@type and @type != 'add') or (not(normalize-space(@type)) and @encodingAnalog = '544')]/blockquote|
+          //descgrp[(@type and @type != 'add') or (not(normalize-space(@type)) and @encodingAnalog = '544')]/chronlist|
+          //descgrp[(@type and @type != 'add') or (not(normalize-space(@type)) and @encodingAnalog = '544')]/list|
+          //descgrp[(@type and @type != 'add') or (not(normalize-space(@type)) and @encodingAnalog = '544')]/p"
   @xml.xpath(path).each do |el|
     descgrp = el.parent
     odd = Nokogiri::XML::Node.new "odd", @xml
