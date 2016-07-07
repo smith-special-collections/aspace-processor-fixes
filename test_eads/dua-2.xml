@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="UTF-8" ?><ead digitalLinks="false" fileSize="70544" maxcomponentid="98" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://hul.harvard.edu/ois/xml/xsd/oasis/ead2002/ead.xsd">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid identifier="012965228">ajp00075</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Pennsylvania – Chestnut Tree Blight Commission, Collection of Photographs: Guide.</titleproper>
+         </titlestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>
+            <date calendar="gregorian" era="ce">11/07/2011</date> Alison Kobierski</creation>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date calendar="gregorian" era="ce" normal="20131107">11/07/2013</date>
+            <item>Loaded into OASIS</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <num>VI CBC</num>
+         <titleproper>Pennsylvania – Chestnut Tree Blight Commission, Collection of Photographs:
+                Guide.</titleproper>
+         <author>The Arnold Arboretum of Harvard University</author>
+         <p>
+            <extptr xlink:actuate="onLoad" xlink:href="http://nrs.harvard.edu/urn-3:ARB.JPLIB:3007484" xlink:show="embed" xlink:type="simple"></extptr>
+         </p>
+         <publisher>The Arnold Arboretum of Harvard University </publisher>
+         <p>© 2011 President and Fellows of Harvard College</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <repository>Arnold Arboretum, Jamaica Plain, MA 02130.</repository>
+         <unitid>VI CBC</unitid>
+         <physloc>Archives.</physloc>
+         <unittitle>Pennsylvania – Chestnut Tree Blight Commission, Collection of Photographs:
+                Guide.</unittitle>
+         <unitdate calendar="gregorian" certainty="circa" era="ce" normal="1912/1913">ca. 1912-1913</unitdate>
+         <origination>
+            <persname>Pennsylvania Chestnut Tree Blight Commission.</persname>
+         </origination>
+         <physdesc>
+            <extent>One box, one bound album</extent>
+         </physdesc>
+         <abstract>This collection documents the effects that chestnut blight, also known as
+                chestnut tree bark disease, had on chestnut trees throughout Pennsylvania. The
+                photos of primarily diseased chestnut trees were taken by the Pennsylvania Chestnut
+                Tree Blight Commission ca. 1912 and 1913.</abstract>
+      </did>
+      <note>
+         <p>Access to Finding Aid record in <extref xlink:actuate="onRequest" xlink:href="http://hollisclassic.harvard.edu/F/?func=find-c&amp;CCL_TERM=sys=012965228" xlink:show="new" xlink:type="simple">Hollis Classic</extref> or <extref xlink:actuate="onRequest" xlink:href="http://holliscatalog.harvard.edu/?itemid=|library/m/aleph|012965228" xlink:show="new" xlink:type="simple">Hollis</extref>.</p>
+      </note>
+      <otherfindaid>
+         <p>
+            <extref xlink:actuate="onRequest" xlink:href="http://arboretum.harvard.edu/wp-content/uploads/VI_CBC_2012.pdf" xlink:show="new" xlink:type="simple">Current version of this finding
+                aid</extref> is available at the <extref xlink:actuate="onRequest" xlink:href="http://arboretum.harvard.edu/library/archive-collection/" xlink:show="new" xlink:type="simple">Archives of the Arnold Arboretum of Harvard
+                    University</extref>. <lb></lb>
+            <lb></lb>
+         </p>
+         <p>Related materials, such as conference proceedings and reports of the Pennsylvania
+                Chestnut Tree Blight Commission, may be found by searching “chestnut blight” in
+                    <extref xlink:actuate="onRequest" xlink:href="http://hollisclassic.harvard.edu/" xlink:show="new" xlink:type="simple">Hollis Classic</extref> and <extref xlink:actuate="onRequest" xlink:href="http://holliscatalog.harvard.edu/" xlink:show="new" xlink:type="simple">Hollis</extref>. Since <date calendar="gregorian" era="ce">1983</date>, the <extref xlink:actuate="onRequest" xlink:href="http://acf.org/index.php" xlink:show="new" xlink:type="simple">
+               <corpname>American Chestnut Foundation</corpname>
+            </extref> has led efforts to restore the American chestnut. To learn more, see the
+                    <extref xlink:actuate="onRequest" xlink:href="http://acf.org/journal.php" xlink:show="new" xlink:type="simple">
+               <title render="italic" xlink:type="simple">Journal of the American Chestnut Foundation</title>
+            </extref>, or read about the Foundation’s history in <extref xlink:actuate="onRequest" xlink:href="http://hollis.harvard.edu/?itemid=|library/m/aleph|011377083" xlink:show="new" xlink:type="simple">
+               <title render="italic" xlink:type="simple">Mighty Giants: An American Chestnut Anthology</title>
+            </extref>. </p>
+      </otherfindaid>
+      <processinfo>
+         <p>Alison Kobierski <date calendar="gregorian" era="ce">October 2011.</date>
+         </p>
+      </processinfo>
+      <acqinfo>
+         <p> Provenance: This collection was the gift of <persname>Winthrop Sargent</persname>
+                    (<date calendar="gregorian" era="ce" normal="1853/1932" type="life">1853-1932</date>), chairman of the Pennsylvania <corpname>Chestnut Tree Blight
+                    Commission</corpname>. The photographs were removed from a deteriorating album
+                and rehoused in plastic sleeves after being photocopied on their original pages. The
+                photocopies were bound and now are part of the collection. </p>
+      </acqinfo>
+      <accessrestrict>
+         <head>Terms of Access</head>
+         <p>Researchers seeking to examine archival materials are strongly encouraged to make an
+                appointment. The Director, or an office of origin, may place restrictions on the use
+                of some or all of its records. The extent and length of the restriction will be
+                determined by the Director, office of origin, and the Archivist and will be enforced
+                equally for all researchers.</p>
+      </accessrestrict>
+      <userestrict>
+         <head>Terms of Use</head>
+         <p> The copyright is held by The President and Fellows of Harvard College for the Arnold
+                Arboretum Archives of Harvard University. The copyright on some materials in the
+                collection may be held by the original author or the author&#39;s heirs or assigns.
+                Researchers are responsible for obtaining written permission from the holder(s) of
+                copyright and the Arnold Arboretum Archives prior to publishing any quotations or
+                images from materials in this collection. </p>
+         <p> Photocopies may be made at the discretion of the Arnold Arboretum Archives staff.
+                Permission to make photocopies does not constitute permission to reproduce or
+                publish materials outside the bounds of the fair use guidelines. </p>
+      </userestrict>
+      <bioghist>
+         <head> Historical Note </head>
+         <p>This collection documents the effects that chestnut blight, also known as chestnut
+                tree bark disease, had on chestnut trees throughout
+                    <geogname>Pennsylvania</geogname>. Introduced in the <geogname>United
+                    States</geogname> in the early 20th century, the first signs of the fungus were
+                discovered in <geogname>New York City</geogname> in <date calendar="gregorian" era="ce">1904</date>, and by <date calendar="gregorian" era="ce">1912</date> it
+                was observed in points as far apart as eastern <geogname>Massachusetts</geogname>
+                and northern <geogname>Virginia</geogname>. Concern over the destruction of trees
+                and subsequent effects to state and local economies led to a conference in
+                    <geogname>Harrisburg, Pennsylvania</geogname>, that was held on <date calendar="gregorian" era="ce">February 20 and 21, 1912</date>, and was called by
+                    <persname>John K. Tener</persname> (<date calendar="gregorian" era="ce" normal="1863/1946" type="life">1863-1946</date>), who was governor of
+                    <geogname>Pennsylvania</geogname> from <date calendar="gregorian" era="ce" normal="1911/1915">1911 to 1915</date>. Chestnut trees were used to make tannic
+                acid (used in tanning), telegraph and telephone poles, and railroad ties, and
+                chestnuts themselves were harvested for consumption, so a shortage of the trees was
+                not insignificant. </p>
+         <p>The <corpname>Pennsylvania Chestnut Tree Blight Commission</corpname>, also known as
+                the Pennsylvania Chestnut Blight Commission, was commissioned by Tener to stop the
+                spread of chestnut blight and eradicate the disease in the western part of the state
+                (approximately 6.5 million acres of woodland). With the <date calendar="gregorian" era="ce">June 1911</date> bill that established the commission, he committed
+                $275,000 to its efforts to stop the blight from moving west. <persname>Mark Alfred
+                    Carlton</persname> managed the project, sending two hundred field agents to
+                inspect trees in western counties; in eastern counties, tree surgeons advised
+                homeowners on ways to save their ornamental chestnut trees from blight. In the west,
+                over 50,000 infected trees were destroyed. In the east, the diseased portions of
+                trees were removed and the resulting wounds covered with creosote. The commission
+                disbanded in <date calendar="gregorian" era="ce">August of 1913</date> after
+                requests for another $275,000 were denied. </p>
+         <p>
+            <persname>Winthrop Sargent</persname> (<date calendar="gregorian" era="ce" normal="18530818/19320329" type="life">August 18, 1853-March 29, 1932</date>)
+                served as chairman of the commission during its brief existence. A cousin of
+                    <corpname>Arnold Arboretum</corpname> director <persname>Charles Sprague
+                    Sargent</persname> (<date calendar="gregorian" era="ce" normal="1841/1927" type="life">1841-1927</date>) and painter <persname>John Singer
+                    Sargent</persname> (<date calendar="gregorian" era="ce" normal="1856/1925" type="life">1856-1925</date>), he was a <geogname>Pennsylvania</geogname>
+                native. During his lifetime he was involved in various industries, including the
+                railroad, paint, cement, and coal. While he helped lead the effort to save
+                    <name>Pennsylvania</name>’s chestnut trees, he was concerned with other forms of
+                preservation as well; Sargent was instrumental in preserving an ancestor’s
+                Revolutionary War-era home in <geogname>Gloucester, MA</geogname>, and he published
+                    <title render="italic" xlink:type="simple">Epes Sargent of Gloucester and His Descendants</title>,
+                an extensive family genealogy, in <date calendar="gregorian" era="ce" type="publication">1923</date>. </p>
+      </bioghist>
+      <scopecontent>
+         <p>This collection documents the findings of the <corpname>Pennsylvania Chestnut Tree
+                    Blight Commission</corpname> through a series of images that were taken ca.
+                    <date calendar="gregorian" certainty="circa" era="ce">1912-1913</date> as part
+                of a survey of <geogname>Pennsylvania</geogname>’s trees. Photographs of trees being
+                felled and milled and sketches of the blight-causing fungus are included as well.
+                The images were removed from a photo album that was given to the <corpname>Arnold
+                    Arboretum</corpname> by <persname>Winthrop Sargent</persname>, chair of the
+                commission, and demonstrate the effects and extent of the blight in
+                    <geogname>Pennsylvania</geogname>.</p>
+         <p>Materials include <genreform>photographs</genreform>, which are maintained in their
+                original order, and a bound photocopy of the photo album.</p>
+         <p>Photographers are indicated where known, and estimated dates are included where
+                possible. </p>
+      </scopecontent>
+      <arrangement>
+         <p>The Pennsylvania – Chestnut Tree Blight Commission, Collection of Photographs is
+                arranged into 2 series. <note>
+               <p>Note: Photographs are kept in the order in which they appeared in the
+                        original album and are identified by the original caption. The numbering
+                        system of the images reflects their original order. Images are first
+                        identified by page number (1, 1.a, 2, etc.). Where there were multiple
+                        images on one page that had the same caption, only the page number is used
+                        to identify both. Where multiple images on a page had different captions,
+                        the images are identified by the page number and whether they were located
+                        on the right or left side of the page.</p>
+            </note>
+         </p>
+         <list numeration="upperroman" type="ordered">
+            <item>Series I: Images</item>
+            <item>Series II: Photo Album Copy</item>
+         </list>
+      </arrangement>
+      <dsc type="in-depth">
+         <c id="ajp00075c00001" level="series">
+            <did>
+               <unitid>I.</unitid>
+               <unittitle>Images</unittitle>
+            </did>
+            <c id="ajp00075c00002" level="otherlevel" otherlevel="namegroup">
+               <did>
+                  <container>Box 1</container>
+               </did>
+               <c id="ajp00075c00003" level="item">
+                  <did>
+                     <unitid>1.</unitid>
+                     <unittitle>
+                        <geogname>Pennsylvania</geogname> – <corpname>Chestnut tree
+                                    blight commission</corpname>. Collection of photographs. </unittitle>
+                     <note>
+                        <p>[Title page.]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00004" level="item">
+                  <did>
+                     <unitid>1.a.</unitid>
+                     <unittitle>A typical healthy chestnut tree loaded with fruit – Crawford
+                                Co. Pa.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00005" level="item">
+                  <did>
+                     <unitid>2.</unitid>
+                     <unittitle>Healthy chestnut timbers in a woodlot – Bedford Co.
+                                Pa.</unittitle>
+                     <note>
+                        <p>[2 photographs]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00006" level="item">
+                  <did>
+                     <unitid>3. (left)</unitid>
+                     <unittitle>Virgin forest of chestnut and white pine – Forest Co. Pa. </unittitle>
+                     <note>
+                        <p>[Taken by <persname>E.T. Kirk</persname>. In the <title render="italic" xlink:type="simple">Report of the Pennsylvania Tree Blight
+                                        Commission, July 1 to December 31, 1912</title>, this image
+                                    is identified as “Virgin forest of chestnut and white pine in
+                                        <geogname>Warren County, Pennsylvania</geogname>. Two
+                                    chestnut trees two feet in diameter; white pine in back ground,
+                                    40 inches in diameter.” ca. <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="ce" startYear="1912">1912</unitdate>] </p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00007" level="item">
+                  <did>
+                     <unitid>3. (right)</unitid>
+                     <unittitle>A logging slide – Potter Co. Pa.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00008" level="item">
+                  <did>
+                     <unitid>4.</unitid>
+                     <unittitle>A chestnut tree 35 years old, grown from seed, planted by the
+                                farmer in foreground – Crawford Co. Pa. </unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00009" level="item">
+                  <did>
+                     <unitid>5.</unitid>
+                     <unittitle>An ineffectual attempt to save a valuable shade tree –
+                                    <geogname>Haverford, Pa.</geogname>
+                     </unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00010" level="item">
+                  <did>
+                     <unitid>6.</unitid>
+                     <unittitle>Chestnut trees in the last stages of destruction by the
+                                blight – <geogname>Bala, Pa</geogname>.</unittitle>
+                     <note>
+                        <p>[2 photographs]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00011" level="item">
+                  <did>
+                     <unitid>7. (left)</unitid>
+                     <unittitle>Fort Washington – Valley Forge Park. All of these trees are
+                                infected with the blight.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00012" level="item">
+                  <did>
+                     <unitid>7. (right)</unitid>
+                     <unittitle>Destruction of young trees by blight – Valley Forge
+                                Park.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00013" level="item">
+                  <did>
+                     <unitid>8.</unitid>
+                     <unittitle>Destruction of chestnut trees by the blight – Valley Forge
+                                Park.</unittitle>
+                     <note>
+                        <p>[2 Photographs.] Photo on right taken by <persname>William
+                                        Currie</persname>, Pennsylvania <corpname>Chestnut Tree
+                                        Blight Commission</corpname> photographer. In the
+                                        <title xlink:type="simple">Report of the Pennsylvania Tree Blight Commission,
+                                        July 1 to December 31, 1912</title>, this image is
+                                    identified as “Young stand of chestnut killed by blight,
+                                        <geogname>Valley Forge, Pennsylvania</geogname>.” ca.
+                                        <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="ce" startYear="1912">1912</unitdate>] </p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00014" level="item">
+                  <did>
+                     <unitid>9. (left)</unitid>
+                     <unittitle>A fine old chestnut tree killed by the blight – Valley Forge
+                                Park.</unittitle>
+                     <note>
+                        <p>[Taken by <persname>William Currie</persname>. In the <title render="italic" xlink:type="simple">Report of the Pennsylvania Tree Blight
+                                        Commission, July 1 to December 31, 1912</title>, this image
+                                    is identified as “Chestnut shade tree killed by blight.
+                                        <geogname>Philadelphia, Pennsylvania</geogname>.” ca.
+                                        <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="ce" startYear="1912">1912</unitdate>] </p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00015" level="item">
+                  <did>
+                     <unitid>9. (right)</unitid>
+                     <unittitle>A blight-killed chestnut tree – <geogname>Bala,
+                                    Pa.</geogname>
+                     </unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00016" level="item">
+                  <did>
+                     <unitid>10. (left)</unitid>
+                     <unittitle>Blight-killed timber – Valley Forge Park.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00017" level="item">
+                  <did>
+                     <unitid>10. (right)</unitid>
+                     <unittitle>Badly blighted stand of chestnut showing improper surgical
+                                treatment – Haverford.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00018" level="item">
+                  <did>
+                     <unitid>11. (left)</unitid>
+                     <unittitle>A healthy Paragon chestnut tree in the orchard at
+                                    <geogname>Emilie, Pa.</geogname>
+                     </unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00019" level="item">
+                  <did>
+                     <unitid>11. (right)</unitid>
+                     <unittitle>Ravages of the blight in the chestnut orchard at
+                                    <geogname>Emilie, Pa.</geogname>
+                     </unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00020" level="item">
+                  <did>
+                     <unitid>12.</unitid>
+                     <unittitle>Blight-killed chestnut trees in southeastern York
+                                County.</unittitle>
+                     <note>
+                        <p>[2 photographs]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00021" level="item">
+                  <did>
+                     <unitid>13.</unitid>
+                     <unittitle>Destruction of a chestnut orchard by the blight – Martic
+                                Forge, Lancaster Co. Pa.</unittitle>
+                     <note>
+                        <p>[2 photographs. Photo on left taken by <persname>William
+                                        Currie</persname>. In the <title render="italic" xlink:type="simple">Report of
+                                        the Pennsylvania Tree Blight Commission, July 1 to December
+                                        31, 1912</title>, this image is identified as “Chestnut
+                                    trees in orchard, killed by chestnut blight. <geogname>Bucks
+                                        County, Pennsylvania</geogname>.” ca. <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="ce" startYear="1912">1912</unitdate>]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00022" level="item">
+                  <did>
+                     <unitid>14.</unitid>
+                     <unittitle>Chestnut sprouts killed by the blight – Oxford, Chester Co
+                                Pa.</unittitle>
+                     <note>
+                        <p>[2 Photographs. Photo on right taken by <persname>E.T.
+                                        Kirk</persname>. In the <title render="italic" xlink:type="simple">Report of the
+                                        Pennsylvania Tree Blight Commission, July 1 to December 31,
+                                        1912</title>, this image is identified as “Sprouts killed by
+                                    blight on tract near Oxford, in Chester County, Pennsylvania.”
+                                    ca. <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="ce" startYear="1912">1912</unitdate>] </p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00023" level="item">
+                  <did>
+                     <unitid>15.</unitid>
+                     <unittitle>Typical chestnut blight cankers.</unittitle>
+                     <note>
+                        <p>[2 Photographs. Photo on left taken by <persname>William
+                                        Currie</persname>. In the <title render="italic" xlink:type="simple">Report of
+                                        the Pennsylvania Tree Blight Commission, July 1 to December
+                                        31, 1912</title>, this image is identified as “Blight canker
+                                    on branch showing characteristic swelling and cracking of bark
+                                    on young wood.” ca. <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="ce" startYear="1912">1912</unitdate>] </p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00024" level="item">
+                  <did>
+                     <unitid>15.a. (left)</unitid>
+                     <unittitle>Canker on thick-barked tree, exposed when tree was struck by
+                                lightning.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00025" level="item">
+                  <did>
+                     <unitid>15.a. (right)</unitid>
+                     <unittitle>Fan-shaped mycelium of blight fungus in thick
+                                bark.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00026" level="item">
+                  <did>
+                     <unitid>15.b. (left)</unitid>
+                     <unittitle>Small leaves due to tree being girdled by blight.</unittitle>
+                     <note>
+                        <p>[In the <title render="italic" xlink:type="simple">Final Report of the Pennsylvania
+                                        Chestnut Tree Blight Commission, January 1 to December 15,
+                                        1913</title>, this image is identified as “A common mark of
+                                    the blight. Small leaves which developed in the early spring on
+                                    a top recently girdled by the blight, showing midsummer
+                                    condition. Withered leaves above the canker; sprouts
+                                    below.”]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00027" level="item">
+                  <did>
+                     <unitid>15.b. (right)</unitid>
+                     <unittitle>Sprouts from base of girdled tree.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00028" level="item">
+                  <did>
+                     <unitid>16. (left)</unitid>
+                     <unittitle>A chestnut (in foreground) showing effects of girdling by the
+                                blight. Note dead top above canker and vigorous growth of sprouts
+                                below – <geogname>Valley Forge Park, Pa.</geogname>
+                     </unittitle>
+                     <note>
+                        <p>[Taken by <persname>William Currie</persname>. In the <title render="italic" xlink:type="simple">Report of the Pennsylvania Tree Blight
+                                        Commission, July 1 to December 31, 1912</title>, this image
+                                    is identified as “Young chestnut tree with top killed by Blight.
+                                    Note drooping, shriveled leaves and dense growth of sprouts
+                                    below the canker. <geogname>Valley Forge,
+                                        Pennsylvania.</geogname>” ca. <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="ce" startYear="1912">1912</unitdate>] </p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00029" level="item">
+                  <did>
+                     <unitid>16. (right)</unitid>
+                     <unittitle>A chestnut shade tree half killed by the blight – Bucks
+                                County, Pa.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00030" level="item">
+                  <did>
+                     <unitid>17. (left)</unitid>
+                     <unittitle>View of chestnut trees in winter condition showing top
+                                branches girdled by blight which still retain withered leaves –
+                                Chester Co. Pa.</unittitle>
+                     <note>
+                        <p>[Taken by <persname>William Currie</persname>. In the <title render="italic" xlink:type="simple">Report of the Pennsylvania Tree Blight
+                                        Commission, July 1 to December 31, 1912</title>, this image
+                                    is identified as “Diseased chestnut tree girdled at the top,
+                                    showing how the persistent leaves cling to the dead branches
+                                    after the foliage from the healthy part has fallen.” ca.
+                                        <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="ce" startYear="1912">1912</unitdate>] </p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00031" level="item">
+                  <did>
+                     <unitid>17. (right)</unitid>
+                     <unittitle>Enlarged view of blight-infested branch showing pustules.
+                            </unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00032" level="item">
+                  <did>
+                     <unitid>18. (left)</unitid>
+                     <unittitle>Chestnut tree in winter condition showing top girdled by
+                                blight – Chester Co. Pa.</unittitle>
+                     <note>
+                        <p>[Taken by <persname>E.T. Kirk</persname>. In the <title render="italic" xlink:type="simple">Report of the Pennsylvania Tree Blight
+                                        Commission, July 1 to December 31, 1912</title>, this image
+                                    is identified as “Blighted chestnut tree showing how ‘The Danger
+                                    Signals’ appear in winter.” In the <title render="italic" xlink:type="simple">Final
+                                        Report of the Pennsylvania Chestnut Tree Blight Commission,
+                                        January 1 to December 15, 1913</title>, it is captioned,
+                                    “Winter condition of a chestnut tree with a blight-girdled top.”
+                                    ca. <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="ce" startYear="1912">1912</unitdate>]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00033" level="item">
+                  <did>
+                     <unitid>18. (right)</unitid>
+                     <unittitle>Near view of a branch girdled by blight, showing typical
+                                withered leaves and partly developed burr.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00034" level="item">
+                  <did>
+                     <unitid>19.</unitid>
+                     <unittitle>View of chestnut trees in the center of a spot infection near
+                                St. Mary’s, Elk Co. Pa. Group of 3 trees (right) probably first
+                                infected in <date calendar="gregorian" endYear="1908" era="ce" startYear="1908">1908</date>. Group
+                                of 2 trees (tagged on left) probably infected in <date calendar="gregorian" endYear="1909" era="ce" startYear="1909">1909</date>.</unittitle>
+                     <note>
+                        <p>[2 photographs. Photo on left taken by <persname>William
+                                        Currie</persname>. In the <title render="italic" xlink:type="simple">Report of
+                                        the Pennsylvania Tree Blight Commission, July 1 to December
+                                        31, 1912</title>, this image is identified as “Center of
+                                    infection in spot infection of 296 trees located in
+                                        <geogname>Benzinger township, Elk County,
+                                        Pennsylvania</geogname>. The blight probably started on this
+                                    tree in <date calendar="gregorian" endYear="1908" era="ce" startYear="1908">1908</date>.” In the
+                                        <title render="italic" xlink:type="simple">Final Report of the Pennsylvania
+                                        Chestnut Tree Blight Commission, January 1 to December 15,
+                                        1913</title>, this image is identified as “Center of spot
+                                    infection at <geogname>St. Mary’s, Elk County, Pa.</geogname>
+                                    This tree was infected at least four years prior to the time the
+                                    picture was taken.” ca. <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="ce" startYear="1912">1912</unitdate>]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00035" level="item">
+                  <did>
+                     <unitid>19.a. (left)</unitid>
+                     <unittitle>Blight cankers on young chestnut sprouts – Oxford, Chester
+                                Co. Pa.</unittitle>
+                     <note>
+                        <p>[Taken by <persname>E.T.Kirk</persname>. In the <title render="italic" xlink:type="simple">Report of the Pennsylvania Tree Blight
+                                        Commission, July 1 to December 31, 1912</title>, this image
+                                    is identified as “Cankers on sprouts killed by Blight, near
+                                        <geogname>Oxford, Chester County, Pennsylvania</geogname>.&quot;
+                                    ca. <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="ce" startYear="1912">1912</unitdate>] </p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00036" level="item">
+                  <did>
+                     <unitid>19.a. (right)</unitid>
+                     <unittitle>Hypertrophied canker.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00037" level="item">
+                  <did>
+                     <unitid>20.</unitid>
+                     <unittitle>Showing the evil effects of “bumping” chestnut trees with
+                                rocks to dislodge nuts. Blight gained entrance through the wound
+                                shown on the left and spread in a single season through the darkened
+                                area shown in the photo on the right.</unittitle>
+                     <note>
+                        <p>[2 photographs]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00038" level="item">
+                  <did>
+                     <unitid>21.</unitid>
+                     <unittitle>Views taken on the McKelvey tract, Somerset Co. Pa, showing
+                                the effects of a sleet storm in breaking down the chestnut trees.
+                                The blight in most cases entered the trees through these wounds. </unittitle>
+                     <note>
+                        <p>[2 photographs. Photo on right taken by <persname>E.T.
+                                        Kirk</persname>. In the <title render="italic" xlink:type="simple">Report of the
+                                        Pennsylvania Tree Blight Commission, July 1 to December 31,
+                                        1912</title>, this image is identified as “Chestnut sapling
+                                    broken by sleet storm. The blight had entered this tree where it
+                                    was broken. <geogname>Somerset County, Pennsylvania</geogname>.”
+                                    ca. <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="ce" startYear="1912">1912</unitdate>]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00039" level="item">
+                  <did>
+                     <unitid>22. (left)</unitid>
+                     <unittitle>A blight canker several years old showing the manner in which
+                                sprouts develop. </unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00040" level="item">
+                  <did>
+                     <unitid>22. (right)</unitid>
+                     <unittitle>An old blight canker showing the characteristic
+                                disintegration of the bark.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00041" level="item">
+                  <did>
+                     <unitid>23.</unitid>
+                     <unittitle>Various forms of chestnut blight cankers.</unittitle>
+                     <note>
+                        <p>[2 photographs. Photos taken by <persname>William
+                                        Currie</persname>. In the <title render="italic" xlink:type="simple">Report of
+                                        the Pennsylvania Tree Blight Commission, July 1 to December
+                                        31, 1912</title>, the image on the left is described, “The
+                                    figure on the left shows the fruiting pustules bursting through
+                                    the bark. The figure at the right shows a young infection with
+                                    an enlargement, which is often characteristic in vigorous
+                                    branches.” The image on the right is identified as “Amoeboid
+                                    infection on two year old sprout.” ca. <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="ce" startYear="1912">1912</unitdate>] </p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00042" level="item">
+                  <did>
+                     <unitid>24. (left)</unitid>
+                     <unittitle>Enlarged view of bark bearing the winter stage (perithecia)
+                                of the chestnut blight fruiting bodies.</unittitle>
+                     <note>
+                        <p>[Taken by <persname>William Currie</persname>. In the <title render="italic" xlink:type="simple">Report of the Pennsylvania Tree Blight
+                                        Commission, July 1 to December 31, 1912</title>, this image
+                                    is identified as “Perithecial pustules from rough bark.” ca.
+                                        <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="ce" startYear="1912">1912</unitdate>] </p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00043" level="item">
+                  <did>
+                     <unitid>24. (right)</unitid>
+                     <unittitle>Enlarged view of winter spores forcibly ejected from
+                                perithecia onto a glass slide.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00044" level="item">
+                  <did>
+                     <unitid>25. (left)</unitid>
+                     <unittitle>View showing fruiting bodies of the chestnut blight fungus,
+                                which have developed crevices of the bark.</unittitle>
+                     <note>
+                        <p>[Taken by <persname>William Currie</persname>. In the <title render="italic" xlink:type="simple">Report of the Pennsylvania Tree Blight
+                                        Commission, July 1 to December 31, 1912</title>, this image
+                                    is identified as “Rough bark showing broad bands of perithecial
+                                    pustules in the crevices. Spores shot from this specimen were
+                                    used in making the ascospore cultures described in this report.”
+                                    ca. <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="ce" startYear="1912">1912</unitdate>]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00045" level="item">
+                  <did>
+                     <unitid>25. (right)</unitid>
+                     <unittitle>Section of a canker (enlarged) showing “spore horns” of the
+                                blight.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00046" level="item">
+                  <did>
+                     <unitid>26. (left)</unitid>
+                     <unittitle>Drawing to show a cross section of a pustule of the chestnut
+                                blight in its winter (perithecial) stage.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00047" level="item">
+                  <did>
+                     <unitid>(26. right)</unitid>
+                     <unittitle>Drawing to show a cross section of a blight pustule in its
+                                summer (conidial) stage.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00048" level="item">
+                  <did>
+                     <unitid>27. (left)</unitid>
+                     <unittitle>Laboratory of The Pennsylvania <corpname>Chestnut Tree Blight
+                                    Commission</corpname>, <corpname>University of
+                                    Pennsylvania</corpname>.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00049" level="item">
+                  <did>
+                     <unitid>27. (right)</unitid>
+                     <unittitle>Portion of the Pennsylvania <corpname>Chestnut Tree Blight
+                                    Commission</corpname>’s Greenhouse at the <corpname>University
+                                    of Pennsylvania</corpname>, showing tables used in investigating
+                                ants as blight distributors.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00050" level="item">
+                  <did>
+                     <unitid>27.a. (left)</unitid>
+                     <unittitle>Spore horns of blight fungus.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00051" level="item">
+                  <did>
+                     <unitid>27.a. (right)</unitid>
+                     <unittitle>Cultures of the blight fungus.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00052" level="item">
+                  <did>
+                     <unitid>27.b. (left)</unitid>
+                     <unittitle>Inoculating a tree with the blight, Field Laboratory –
+                                Charter Oak, Pa.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00053" level="item">
+                  <did>
+                     <unitid>27.b. (right)</unitid>
+                     <unittitle>Canker produced by inoculation. Rings show monthly
+                                growth.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00054" level="item">
+                  <did>
+                     <unitid>28. (left)</unitid>
+                     <unittitle>Drawings which show the relative growth of chestnut blight
+                                fungus from winter spores (left) and summer spores (right) in 22
+                                hours. </unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00055" level="item">
+                  <did>
+                     <unitid>28. (right)</unitid>
+                     <unittitle>Inoculations made in the experimental plots in the field
+                                laboratories at <geogname>Charter Oak, Pa.</geogname>
+                     </unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00056" level="item">
+                  <did>
+                     <unitid>28.a. (left)</unitid>
+                     <unittitle>Comparative growth of blight fungus (right) and
+                                “Connelsville” (sic)fungus (left) from inoculations.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00057" level="item">
+                  <did>
+                     <unitid>28.a. (right)</unitid>
+                     <unittitle>Inoculations cut out by surgical methods.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00058" level="item">
+                  <did>
+                     <unitid>28.b. (left)</unitid>
+                     <unittitle>Scouting for the blight.</unittitle>
+                     <note>
+                        <p>[In the <title render="italic" xlink:type="simple">Final Report of the Pennsylvania
+                                        Chestnut Tree Blight Commission, January 1 to December 15,
+                                        1913</title>, this image is captioned, “Thorough scouting
+                                    for the blight is necessary.”]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00059" level="item">
+                  <did>
+                     <unitid>28.b. (right)</unitid>
+                     <unittitle>Diseased tree, blazed and tagged.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00060" level="item">
+                  <did>
+                     <unitid>29.</unitid>
+                     <unittitle>Typical sprout growth of chestnut. Blight was found in both
+                                of these stands and required several thorough scoutings to locate
+                                all of the diseased trees because of the dense growth. </unittitle>
+                     <note>
+                        <p>{2 photographs]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00061" level="item">
+                  <did>
+                     <unitid>29.a.</unitid>
+                     <unittitle>Cutting out a “spot infection” in heavy timber – Bedford Co.,
+                                Pa.</unittitle>
+                     <note>
+                        <p>[Taken by <persname>William Currie</persname>. In the <title render="italic" xlink:type="simple">Report of the Pennsylvania Tree Blight
+                                        Commission, July 1 to December 31, 1912</title>, this image
+                                    is identified as “Spot infection in Bedford County, consisting
+                                    of sixteen large chestnut trees.” In the <title render="italic" xlink:type="simple">Final Report of the Pennsylvania Chestnut Tree Blight
+                                        Commission, January 1 to December 15, 1913</title>, this
+                                    image is captioned, “Cutting out a spot infection among large
+                                    trees.” ca. <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="ce" startYear="1912">1912</unitdate>] </p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00062" level="item">
+                  <did>
+                     <unitid>30.</unitid>
+                     <unittitle>Felling and peeling diseased chestnut trees.</unittitle>
+                     <note>
+                        <p>{2 photographs]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00063" level="item">
+                  <did>
+                     <unitid>30.a. (left)</unitid>
+                     <unittitle>Peeling base of diseased tree before felling.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00064" level="item">
+                  <did>
+                     <unitid>30.a. (right)</unitid>
+                     <unittitle>Cleaning up and burning an infection.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00065" level="item">
+                  <did>
+                     <unitid>30.b. (left)</unitid>
+                     <unittitle>Cleaning up and burning improperly done.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00066" level="item">
+                  <did>
+                     <unitid>30.b. (right)</unitid>
+                     <unittitle>) Infection burned.</unittitle>
+                     <note>
+                        <p>[In the <title render="italic" xlink:type="simple">Final Report of the Pennsylvania
+                                        Chestnut Tree Blight Commission, January 1 to December 15,
+                                        1913</title>, this image is identified as “Properly burned
+                                    stump; stump on the left cut too high.”]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00067" level="item">
+                  <did>
+                     <unitid>30.c. (left)</unitid>
+                     <unittitle>Paragon chestnut orchard – <geogname>Martic Forge,
+                                    Pa.</geogname>
+                     </unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00068" level="item">
+                  <did>
+                     <unitid>30.c. (right)</unitid>
+                     <unittitle>Injecting a fungicide into a diseased chestnut tree.
+                            </unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00069" level="item">
+                  <did>
+                     <unitid>31. (left)</unitid>
+                     <unittitle>Spraying chestnut trees after surgical treatment, DuPont
+                                Estate, <geogname>Kennett,Pa.</geogname>
+                     </unittitle>
+                     <note>
+                        <p>[Taken by <persname>William Currie</persname>. In the <title render="italic" xlink:type="simple">Report of the Pennsylvania Tree Blight
+                                        Commission, July 1 to December 31, 1912</title>, this image
+                                    is identified as “Spraying Bordeaux Mixture 4-5-50 on large
+                                    chestnut trees at estate of <persname>Pierre DuPont</persname>.
+                                    Sprayed every two weeks from April to middle of November, 1912.
+                                        <geogname>Kennett Square, Pennsylvania</geogname>.” ca.
+                                        <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="uce" startYear="1912">1912</unitdate>] </p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00070" level="item">
+                  <did>
+                     <unitid>31. (right)</unitid>
+                     <unittitle>Chestnut trees killed by the blight – <geogname>Oyster Bay,
+                                    L.I.</geogname>
+                     </unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00071" level="item">
+                  <did>
+                     <unitid>32. (left)</unitid>
+                     <unittitle>Chestnut blight canker which started in a wound made by a
+                                climbing iron.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00072" level="item">
+                  <did>
+                     <unitid>32. (right)</unitid>
+                     <unittitle>Surgical treatment to remove a very young blight
+                                infection.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00073" level="item">
+                  <did>
+                     <unitid>32.a. (left)</unitid>
+                     <unittitle>Chestnut trees killed by the blight – Oxford, Chester Co.
+                                Pa.</unittitle>
+                     <note>
+                        <p>[Taken by <persname>William Currie</persname>. In the <title render="italic" xlink:type="simple">Report of the Pennsylvania Tree Blight
+                                        Commission, July 1 to December 31, 1912</title>, this image
+                                    is identified as “General view of dead trees killed by the
+                                    blight near <geogname>Oxford, Chester County,
+                                        Pennsylvania</geogname>.” ca. <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="ce" startYear="1912">1912</unitdate>]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00074" level="item">
+                  <did>
+                     <unitid>32.a. (right)</unitid>
+                     <unittitle>Railroad ties made from blighted chestnut trees.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00075" level="item">
+                  <did>
+                     <unitid>33.</unitid>
+                     <unittitle>The farm and part of the Paragon chestnut orchard belonging
+                                to Col. C.K. Sober, Paxinos, Northumberland Co., Pa.</unittitle>
+                     <note>
+                        <p>[2 photographs]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00076" level="item">
+                  <did>
+                     <unitid>34. (left)</unitid>
+                     <unittitle>Interior of Col. C.K. Sober’s house, showing chestnut lumber
+                                used for finishing purposes.</unittitle>
+                     <note>
+                        <p>[Taken by <persname>William Currie</persname>. In the <title render="italic" xlink:type="simple">Report of the Pennsylvania Tree Blight
+                                        Commission, July 1 to December 31, 1912</title>, this image
+                                    is identified as “Chestnut used for interior finish.” ca.
+                                        <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="ce" startYear="1912">1912</unitdate>]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00077" level="item">
+                  <did>
+                     <unitid>34. (right)</unitid>
+                     <unittitle>Chestnut nursery stock in Col. C.K. Sober’s nursery ready for
+                                shipment, showing tags of the <corpname>Chestnut Tree Blight
+                                    Commission</corpname> attached after the trees were individually
+                                inspected and dipped in fungicide.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00078" level="item">
+                  <did>
+                     <unitid>35.</unitid>
+                     <unittitle>Portable sawmill working in blighted timber and a portion of
+                                the product.</unittitle>
+                     <note>
+                        <p>[2 photographs. Photo on left by taken by <persname>E.T.
+                                        Kirk</persname>. In the <title render="italic" xlink:type="simple">Report of the
+                                        Pennsylvania Tree Blight Commission, July 1 to December 31,
+                                        1912</title>, this image is identified as “Portable saw mill
+                                    sawing logs from blighted trees.” ca. <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="ce" startYear="1912">1912</unitdate>] </p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00079" level="item">
+                  <did>
+                     <unitid>36.</unitid>
+                     <unittitle>Telephone and telegraph poles made from blighted chestnut
+                                trees.</unittitle>
+                     <note>
+                        <p>[2 photographs]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00080" level="item">
+                  <did>
+                     <unitid>37.</unitid>
+                     <unittitle>Stave mill and staves from blighted chestnut wood on the
+                                Estate of Col. H.C. Trexler, <geogname>Allentown,
+                                Pa.</geogname>
+                     </unittitle>
+                     <note>
+                        <p>[2 photographs taken by <persname>William Currie</persname>. In
+                                    the <title render="italic" xlink:type="simple">Report of the Pennsylvania Tree
+                                        Blight Commission, July 1 to December 31, 1912</title>, the
+                                    image on the left is captioned, “General view of portable stave
+                                    mill operating in blighted chestnut. This kind of mill can
+                                    utilize chestnut unfit for saw logs or shingles.” The image on
+                                    the right is identified as “Staves made from blighted chestnut,
+                                    bundled, ready for shipping.” ca. <unitdate calendar="gregorian" certainty="circa" endYear="1912" era="ce" startYear="1912">1912</unitdate>]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00081" level="item">
+                  <did>
+                     <unitid>38.</unitid>
+                     <unittitle>Portable stave mills in the mountains of central
+                                    <geogname>Pennsylvania</geogname>.</unittitle>
+                     <note>
+                        <p>[2 photographs]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00082" level="item">
+                  <did>
+                     <unitid>39.</unitid>
+                     <unittitle>Blighted chestnut trees utilized for fence posts – York Co.
+                                Pa.</unittitle>
+                     <note>
+                        <p>[2 photographs]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00083" level="item">
+                  <did>
+                     <unitid>39.a. (left)</unitid>
+                     <unittitle>Cordwood of chestnut and other species to be manufactured
+                                into charcoal – Somerset Co. Pa. </unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00084" level="item">
+                  <did>
+                     <unitid>39.a. (right)</unitid>
+                     <unittitle>Blighted chestnut made into fencing – Chester Co.
+                                Pa.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00085" level="item">
+                  <did>
+                     <unitid>40.</unitid>
+                     <unittitle>Portable sawmill sawing blighted chestnut trees into timbers
+                                for barn framing – Oxford, Chester Co. Pa.</unittitle>
+                     <note>
+                        <p>[2 photographs]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00086" level="item">
+                  <did>
+                     <unitid>40.a. (left)</unitid>
+                     <unittitle>A “stag headed” chestnut tree – Mercer Co. Pa.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00087" level="item">
+                  <did>
+                     <unitid>40.a. (right)</unitid>
+                     <unittitle>Base of tree showing roots injured by trampling of
+                                cattle.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00088" level="item">
+                  <did>
+                     <unitid>41. (left)</unitid>
+                     <unittitle>Chestnut trees in western <geogname>Pennsylvania</geogname>
+                                showing unhealthy condition of tops due to borers and the pasturing
+                                of cattle – Crawford Co. Pa.</unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00089" level="item">
+                  <did>
+                     <unitid>41. (right)</unitid>
+                     <unittitle>Stub of a chestnut tree which was probably killed by borers –
+                                    <geogname>Somerset, Pa.</geogname>
+                     </unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00090" level="item">
+                  <did>
+                     <unitid>42. (left)</unitid>
+                     <unittitle>Virgin white pine and hemlock, <geogname>Warren,
+                                    Pa.</geogname>
+                     </unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00091" level="item">
+                  <did>
+                     <unitid>42. (right)</unitid>
+                     <unittitle>White pine reproduction in an old pasture,
+                                    <geogname>Huntingdon, Pa.</geogname>
+                     </unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00092" level="item">
+                  <did>
+                     <unitid>43.</unitid>
+                     <unittitle>Trees killed by soft coal smoke near <geogname>Pittsburgh,
+                                    Pa.</geogname>
+                     </unittitle>
+                     <note>
+                        <p>[2 photographs]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00093" level="item">
+                  <did>
+                     <unitid>44.</unitid>
+                     <unittitle>Chestnut trees killed by an unknown fungus which causes
+                                cankers somewhat similar in appearance to those made by the chestnut
+                                blight – St. Mary’s, Elk Co. Pa. </unittitle>
+                     <note>
+                        <p>[2 photographs]</p>
+                     </note>
+                  </did>
+               </c>
+               <c id="ajp00075c00094" level="item">
+                  <did>
+                     <unitid>45. (left)</unitid>
+                     <unittitle>Hemlock barn piled at a tannery near <geogname>Warren,
+                                    Pa.</geogname>
+                     </unittitle>
+                  </did>
+               </c>
+               <c id="ajp00075c00095" level="item">
+                  <did>
+                     <unitid>45. (right)</unitid>
+                     <unittitle>Chestnut and other woods being manufactured into charcoal –
+                                    <geogname>Somerset, Pa.</geogname>
+                     </unittitle>
+                  </did>
+               </c>
+            </c>
+         </c>
+         <c id="ajp00075c00096" level="series">
+            <did>
+               <unitid>II.</unitid>
+               <unittitle>Photo Album Copy</unittitle>
+            </did>
+            <c id="ajp00075c00097" level="otherlevel" otherlevel="namegroup">
+               <did>
+                  <container>Bound volume</container>
+               </did>
+               <c id="ajp00075c00098" level="item">
+                  <did>
+                     <unittitle>Bound photocopy of the original <corpname>Chestnut Tree
+                                    Blight Commission</corpname> photo album.</unittitle>
+                     <note>
+                        <p>Because of its deteriorated condition, the album was copied and
+                                    the photographs were removed and placed in plastic sleeves. This
+                                    volume shows the images in their original arrangement, complete
+                                    with handwritten captions.</p>
+                     </note>
+                  </did>
+               </c>
+            </c>
+         </c>
+      </dsc>
+   </archdesc>
+</ead>
