@@ -13,6 +13,11 @@
     <active pattern="note-automated" />
     <active pattern="unitdate-automated" />
     <active pattern="unitid-automated" />
+    <active pattern="unittitle-automated" />
+    <active pattern="scopecontent-automated" />
+    <active pattern="daogrp-automated" />
+    <active pattern="namegrp-automated" />
+    <active pattern="identifier-automated" />
   </phase>
   <phase id="manual">
     <active pattern="descgrp-manual" />
@@ -160,11 +165,6 @@
         'container' element must contain 'type' attribute.
       </assert>
     </rule>
-
-    <rule context="//*:date|//*:unitdate">
-      <!-- 'date' and 'unitdate' elements with ranges -->
-
-    </rule>
   </pattern>
 
   <pattern id="dao-automated">
@@ -238,6 +238,59 @@
     </rule>
   </pattern>
 
+  <pattern id="unittitle-automated">
+    <rule context="//*:did[count(./*:unittitle) gt 1]">
+      <!-- 'unittitle' element -->
+      <assert test="not(.)" diagnostics="unittitle-1">
+        More than one 'unittitle' element may not be provided per level of description ('did' element), per ArchivesSpace.  One authoritative 'unittitle' element should be decided on or created, method of choice/construction is left to local practice to determine.
+      </assert>
+    </rule>
+
+    <rule context="//*:unittitle">
+      <!-- 'unittitle' elements pointed at by 'ref' elements -->
+      <assert test="not(./@id = //*:ref/@target)" diagnostics="unittitle-2">
+        'ref' elements must not point at 'unititle' elements.  'target' attribute should be rewritten to point at parent 'c'.
+      </assert>
+    </rule>
+  </pattern>
+
+  <pattern id="scopecontent-automated">
+    <rule context="//*:scopecontent/*:arrangement">
+      <!-- 'scopecontent' element -->
+      <assert test="not(.)" diagnostics="scopecontent-1">
+        'scopecontent' elements must not contain 'arrangement' elements.  Move 'arrangement' element to be a sibling of containing 'scopecontent' element.
+      </assert>
+    </rule>
+  </pattern>
+
+  <pattern id="daogrp-automated">
+    <rule context="//*:daogrp">
+      <!-- 'daogrp' element -->
+      <assert test="not(.)" diagnostics="daogrp-1">
+        'daogrp' element is not well supported in ArchivesSpace.  Remove 'daogrp', and rewrite contained 'daoloc' elements to 'dao's, taking xlink attributes from 'arc' elements.
+      </assert>
+    </rule>
+  </pattern>
+  <pattern id="namegrp-automated">
+    <rule context="//*:namegrp">
+      <!-- 'namegrp' element -->
+      <assert test="not(.)" diagnostics="namegrp-1">
+        'namegrp' element is not supported in ArchivesSpace. Serialize contents of 'namegrp' subelements in content of first subelement, and replace 'namegrp' with first subelement.
+      </assert>
+    </rule>
+  </pattern>
+
+  <pattern id="identifier-automated">
+    <rule context="/*:ead">
+      <!-- 'ead' element -->
+      <assert test="not(.[.//*:eadid/@identifier]) or
+                    (./*:archdesc//*:processinfo/*:p/text() = .//*:eadid/@identifier)"
+              diagnostics="identifier-1">
+        The 'identifier' attribute on 'eadid' elements is not preserved by ArchivesSpace.  Place contents in a 'p' element within a 'processinfo' element in 'archdesc'.
+      </assert>
+    </rule>
+  </pattern>
+
   <diagnostics>
     <diagnostic id="enm-1">Ref-number: 18
     Content: Value is "<value-of select="." />"</diagnostic>
@@ -275,6 +328,12 @@ Content: '<value-of select="local-name(.)" />' element should not be empty
     <diagnostic id="dua-3">Ref-number: 57</diagnostic>
     <diagnostic id="unitid-1">Ref-number: 43</diagnostic>
     <diagnostic id="unitid-2">Ref-number: 55</diagnostic>
+    <diagnostic id="unittitle-1">Ref-number: 28</diagnostic>
+    <diagnostic id="unittitle-2">Ref-number: 28</diagnostic>
+    <diagnostic id="scopecontent-1">Ref-number: 2</diagnostic>
+    <diagnostic id="daogrp-1">Ref-number: 10</diagnostic>
+    <diagnostic id="namegrp-1">Ref-number: 22</diagnostic>
+    <diagnostic id="identifier-1">Ref-number: 59</diagnostic>
   </diagnostics>
 
 </schema>
