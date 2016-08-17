@@ -164,6 +164,10 @@
       <assert test=".[@type]" diagnostics="ca-1">
         'container' element must contain 'type' attribute.
       </assert>
+
+      <assert test=".[@label]" diagnostics="ca-2">
+        'container' element must contain 'label' attribute.
+      </assert>
     </rule>
   </pattern>
 
@@ -313,7 +317,7 @@ Content: '<value-of select="local-name(.)" />' element can be moved out of 'desc
     <diagnostic id="dua-1">Ref-number: 38
 Content: Content from '<value-of select="local-name(.)" />' element's 'startYear' (<value-of select="./@startYear" />) and 'endYear' (<value-of select="./@endYear" />) attributes should be combined into a single 'normal' attribute separated by '/' (<value-of select="./@startYear" />/<value-of select="./@endYear" />)
     </diagnostic>
-    <diagnostic id="ca-1">Ref-number: 17</diagnostic>
+    <diagnostic id="ca-1">Ref-number: 6</diagnostic>
     <diagnostic id="dao-1">Ref-number: 9</diagnostic>
     <diagnostic id="noempty-1">Ref-number: 46
 Content: '<value-of select="local-name(.)" />' element should not be empty
@@ -334,6 +338,7 @@ Content: '<value-of select="local-name(.)" />' element should not be empty
     <diagnostic id="daogrp-1">Ref-number: 10</diagnostic>
     <diagnostic id="namegrp-1">Ref-number: 22</diagnostic>
     <diagnostic id="identifier-1">Ref-number: 59</diagnostic>
+    <diagnostic id="ca-2">Ref-number: 6.2</diagnostic>
   </diagnostics>
 
 </schema>
