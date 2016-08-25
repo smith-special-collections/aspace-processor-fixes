@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../ead_for_Oxygen_2013_11_07.css"?>
+<ead digitalLinks="false" fileSize="55858" maxcomponentid="12" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid identifier="008170002">des00009</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Mumford, Lewis (A Tribute), 1979-1982: An Inventory.</titleproper>
+         </titlestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>
+            <date calendar="gregorian" era="ce">06/23/2004 </date>B. Kevin Lau </creation>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date calendar="gregorian" era="ce">6/10/2016</date>
+            <item>ASpace Pre-load edit (M. Carpenter) </item>
+         </change>
+         <change>
+            <date calendar="gregorian" era="ce" normal="20160615">06/15/2016</date>
+            <item>Loaded into OASIS</item>
+         </change>
+         <change>
+            <date calendar="gregorian" era="ce" normal="20060517">June 8, 2006</date>
+            <item>des00009 converted from EAD 1.0 to 2002 by v1to02.xsl (sy2006-06-08).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Mumford, Lewis (A Tribute), 1979-1982: An Inventory. </titleproper>
+         <publisher> Special Collections, Frances Loeb Library, Harvard Design School</publisher>
+         <p>
+            <extptr xlink:actuate="onLoad" xlink:href="http://nrs.harvard.edu/urn-3:HUL.OIS:gsd_shield" xlink:type="simple"/>
+         </p>
+         <p>© 2004 The President and Fellows of Harvard College</p>
+         <edition>Last update 2016 June 10</edition>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <repository>Special Collections, Frances Loeb Library, Graduate School of Design, Harvard University. </repository>
+         <unitid>DES.1998.0001.008170002</unitid>
+         <unittitle>A Tribute to Lewis Mumford: An Inventory </unittitle>
+         <unitdate calendar="gregorian" era="ce" normal="1979/1982">1979-1982</unitdate>
+         <origination>Mumford, Lewis, 1895- ; 
+ Haar, Charles Monroe, 1920 - ; Kayden, Jerold S. <corpname encodinganalog="110">Lincoln Institute of Land Policy. </corpname>
+         </origination>
+         <physdesc>
+            <extent>1 linear feet</extent>
+         </physdesc>
+         <physdesc>Extent is approximate</physdesc>
+         <abstract> Organizational files, including invitations, correspondence, photographs and the texts of tributes to Lewis Mumford, assembled by Charles M. Haar and Jerold S. Kayden. 
+Haar and Kayden were organizers of the events celebrating Mumford as the first recipient of The Lincoln Institute of Land Policy Award. 
+</abstract>
+      </did>
+         <processinfo>
+            <head>Processing Information:</head>
+            <p>Processed by: Mary Daniels</p>
+         </processinfo>
+         <acqinfo>
+            <head>Acquisition Information</head>
+            <note>
+               <p>Immediate source of acquisition: Gift of Jerold S. Kayden, 1998.</p>
+            </note>
+         </acqinfo>
+         <accessrestrict>
+            <head>Conditions on Use and Access</head>
+            <p>Contact Special Collections Department, Frances Loeb Library, Harvard Design School</p>
+         </accessrestrict>
+      <bioghist>
+         <head>Biography</head>
+         <p>Lewis Mumford (1895-1990) was a notable and prolific writer and critic, best-known for his studies of urban life, architectural history, and the effects of technological development on human societies and cultures. Mumford was architectural critic for <emph>The New Yorker Magazine</emph> for over thirty years and was a founding member of the Regional Planning Association of America. Mumford’s work as a journalist was supplemented by numerous books, including <emph>The Brown Decades, The Myth of the Machine</emph> and <emph>The City in History</emph> (winner of the National Book Award). Among Mumford’s many awards was the the Presidential Medal of Freedom, which he received in 1964. </p>
+      </bioghist>
+      <scopecontent>
+         <p>The collection includes correspondence and announcements related to the award dinner, the texts of tributes contributed by guests, and photographs of the dinner/award ceremony. 
+Notes: The edited “proceedings” of the event was published as <emph>A Tribute to Lewis Mumford : First Recipient, Lincoln Institute of Land Policy Award, 1979-1980 (Cambridge, Mass : Lincoln Institute of Land Policy, 1982)</emph>. </p>
+      </scopecontent>
+      <arrangement>
+         <p>The collection is composed of of Series IA-IB (Correspondence/Acceptances/Regrets/Tributes), Series IC (Letters of Invitation), Series ID (Guest List &amp; Program), Series IE (Correspondence.Mumford/Haar), Series IF (Miscellaneous Correspondence), Series IIA (Remarks by Lewis Mumford), Series III (Photographs), Series IV (Photographs of Boghosian collage), Series VA (Text as published), Series VB (Clippings file), Series VC (TM <emph>Lewis Mumford: A Bibliography</emph>//Elmer S. Newman).</p>
+      </arrangement>
+      <dsc type="in-depth">
+         <c id="des00009c00001" level="series">
+            <did>
+               <unitid id="desmu001sIA">IA</unitid>
+               <unittitle>Tribute to Lewis Mumford / Correspondence/ Acceptances/ Tributes</unittitle>
+               <unitdate calendar="gregorian" era="ce" normal="1979/1982"> / Date(s): 1979-1982</unitdate>
+               <physdesc> / Quantity: 58.0</physdesc>
+            </did>
+            <odd>
+               <p>Note: Letters of acceptance to the testimonial dinner honoring Lewis Mumford.</p>
+               <p>Note: Many of the acceptances are accompanied by the texts of the tributes delivered at the dinner and which were subsequently published.</p>
+            </odd>
+         </c>
+         <c id="des00009c00002" level="series">
+            <did>
+               <unitid id="desmu001sIB">IB</unitid>
+               <unittitle>Tribute to Lewis Mumford / Correspondence/ Regrets/ Tributes</unittitle>
+               <unitdate calendar="gregorian" era="ce" normal="1979/1982"> / Date(s): 1979-1982</unitdate>
+               <physdesc> / Quantity: 39.0</physdesc>
+            </did>
+            <odd>
+               <p>Note: Letters of regret; regrets refer either to attendance at the dinner and/or inability to prepare a text for publication.</p>
+            </odd>
+         </c>
+         <c id="des00009c00003" level="series">
+            <did>
+               <unitid id="desmu001sIC">IC</unitid>
+               <unittitle>Tribute to Lewis Mumford / Letters of Invitation</unittitle>
+               <unitdate calendar="gregorian" era="ce" normal="1979/1979"> / Date(s): 1979</unitdate>
+               <physdesc> / Quantity: 1.0</physdesc>
+            </did>
+            <odd>
+               <p>Note: Drafts of letter of invitation to the dinner honoring Lewis Mumford, drafted by Charles M. Haar.</p>
+            </odd>
+         </c>
+         <c id="des00009c00004" level="series">
+            <did>
+               <unitid id="desmu001sID">ID</unitid>
+               <unittitle>Tribute to Lewis Mumford / Guest List &amp; Program</unittitle>
+               <unitdate calendar="gregorian" era="ce" normal="1979/1979"> / Date(s): 1979</unitdate>
+               <physdesc> / Quantity: 1.0</physdesc>
+            </did>
+         </c>
+         <c id="des00009c00005" level="series">
+            <did>
+               <unitid id="desmu001sIE">IE</unitid>
+               <unittitle>Tribute to Lewis Mumford/Correspondence/Lewis Mumford/Charles M. Haar</unittitle>
+               <unitdate calendar="gregorian" era="ce" normal="1979/1980"> / Date(s): 1979-1980</unitdate>
+               <physdesc> / Quantity: 11 items</physdesc>
+            </did>
+            <odd>
+               <p>Note: Correspondence exchanged between Mumford and Haar relating to the award and related events.</p>
+            </odd>
+         </c>
+         <c id="des00009c00006" level="series">
+            <did>
+               <unitid id="desmu001sIF">IF</unitid>
+               <unittitle>Tribute to Lewis Mumford/ Miscellaneous correspondence</unittitle>
+               <unitdate calendar="gregorian" era="ce" normal="1979/1979"> / Date(s): 1979</unitdate>
+               <physdesc> / Quantity: 4 items</physdesc>
+            </did>
+            <odd>
+               <p>Note: Miscellaneous correspondence concerning the Mumford event.</p>
+            </odd>
+         </c>
+         <c id="des00009c00007" level="series">
+            <did>
+               <unitid id="desmu001sIIA">IIA</unitid>
+               <unittitle>Tribute to Lewis Mumford/ Response [Remarks] by Lewis Mumford</unittitle>
+               <unitdate calendar="gregorian" era="ce" normal="1979/1979"> / Date(s): 1979</unitdate>
+               <physdesc> / Quantity: 1 item</physdesc>
+            </did>
+            <odd>
+               <p>Note: Annotated and corrected draft of Mumford's response to the Lincoln Land Institute's award. Includes autobiographical commentary.</p>
+            </odd>
+         </c>
+         <c id="des00009c00008" level="series">
+            <did>
+               <unitid id="desmu001sIII">III</unitid>
+               <unittitle>Tribute to Lewis Mumford/Photographs</unittitle>
+               <unitdate calendar="gregorian" era="ce" normal="1979/1979"> / Date(s): 1979</unitdate>
+               <physdesc> / Quantity: 52 items</physdesc>
+            </did>
+            <odd>
+               <p>Note: Group and individual photographs, as well as contact sheets and negatives , taken at the Mumford tribute.</p>
+               <p>Note: Identified and recognized indivdiduals have been cited in the index.</p>
+            </odd>
+         </c>
+         <c id="des00009c00009" level="series">
+            <did>
+               <unitid id="desmu001sIV">IV</unitid>
+               <unittitle>Tribute to Lewis Mumford / Photographs of Boghosian Collage</unittitle>
+               <unitdate calendar="gregorian" era="ce" normal="1979/1979"> / Date(s): 1979</unitdate>
+               <physdesc> / Quantity: 7 items</physdesc>
+            </did>
+            <odd>
+               <p>Note: Prints and negatives of collage designed to honor Mumford by Varujan Boghosian.</p>
+            </odd>
+         </c>
+         <c id="des00009c00010" level="series">
+            <did>
+               <unitid id="desmu001sVA">VA</unitid>
+               <unittitle>Tribute to Lewis Mumford/Published text</unittitle>
+               <unitdate calendar="gregorian" era="ce" normal="1979/1979"> / Date(s): 1979</unitdate>
+               <physdesc> / Quantity: 1 item</physdesc>
+            </did>
+            <odd>
+               <p>Note: Text as published, including tributes, Mumford's statement and selected photographs.</p>
+            </odd>
+         </c>
+         <c id="des00009c00011" level="series">
+            <did>
+               <unitid id="desmu001sVB">VB</unitid>
+               <unittitle>Tribute to Lewis Mumford / Clippings</unittitle>
+               <unitdate calendar="gregorian" era="ce" normal="1977/1979"> / Date(s): 1977 - 1979</unitdate>
+               <physdesc> / Quantity: 5 items</physdesc>
+            </did>
+            <odd>
+               <p>Note: Miscellaneous clippings by and concerning Mumford.</p>
+            </odd>
+         </c>
+         <c id="des00009c00012" level="series">
+            <did>
+               <unitid id="desmu001sVC">VC</unitid>
+               <unittitle>Tribute to Lewis Mumford/ LEWIS MUMFORD: A BIBLIOGRAPHY//Elmer S. Newman</unittitle>
+               <unitdate calendar="gregorian" era="ce" normal="1971/1971"> / Date(s): 1971</unitdate>
+               <physdesc> / Quantity: 1 item</physdesc>
+            </did>
+            <odd>
+               <p>Note: Photocopy of Newman bibliography.</p>
+            </odd>
+         </c>
+      </dsc>
+      <index>
+         <head>Personal Names Index</head>
+         <indexentry>
+            <persname encodinganalog="100"> -- Photographs</persname>
+            <ref target="des00009c00008" xlink:type="simple">III</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Bacon, Edmund  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Barnes, Edward L., 1915-  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Barry, Marion S.  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Bell, Daniel, 1916-  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Bell, David E.  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Biddle, Livingston L., 1918-  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Blake, Peter  -- Correspondence</persname>
+            <ptrgrp>
+               <ref target="des00009c00001" xlink:type="simple">IA, </ref>
+               <ref target="des00009c00002" xlink:type="simple">IB</ref>
+            </ptrgrp>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="600">Boghosian, Varujan  -- Photographs</persname>
+            <ptrgrp>
+               <ref target="des00009c00008" xlink:type="simple">III, </ref>
+               <ref target="des00009c00009" xlink:type="simple">IV</ref>
+            </ptrgrp>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Bok, Derek  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Bok, Sissela  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Boorstin, Daniel J.  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Bridenbaugh, Carl  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Brown, Denise Scott-, 1921-  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Byrne, Jane, 1933-  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Campbell, Robert  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Catalano, Eduardo, 1917-  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Chase, Stuart, 1888-1985  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Clay, Grady  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Cohen, Harold L.  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Coleman, William T., jr  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Commager, Henry Steele, 1902-  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Cook, Charles C.  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="600">Cori, Carl Ferdinand, 1896-  -- Photographs</persname>
+            <ref target="des00009c00008" xlink:type="simple">III</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Cousins, Norman, 1912-  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Davis, Arthur  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Doebele, William A.  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Dubos, Rene Jules, 1901-  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="600">Duffey, Joseph  -- Photographs</persname>
+            <ref target="des00009c00008" xlink:type="simple">III</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Duffey, Joseph D  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Dukakis, Michael Stanley, 1933-  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Duncan, Otis Dudley  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Eldredge, H. Wentworth  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Embry, Robert C.  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Fisher, Joseph  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Fitch, James Marston  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Fitch, Lyle Craig  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Fuller, R. Buckminster, 1895-  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Gans, Herbert J.  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Glazer, Nathan  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Goldschmidt, Neil  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Goodman, Percival  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Goodman, Percival  -- Photographs</persname>
+            <ref target="des00009c00008" xlink:type="simple">III</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Gottmann, Jean  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Graubard, Stephen  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Haar, Charles Monroe, 1920-  -- Correspondence</persname>
+            <ptrgrp>
+               <ref target="des00009c00003" xlink:type="simple">IC, </ref>
+               <ref target="des00009c00005" xlink:type="simple">IE, </ref>
+               <ref target="des00009c00006" xlink:type="simple">IF</ref>
+            </ptrgrp>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Haar, Charles Monroe, 1920-  -- Organization files</persname>
+            <ref xlink:type="simple">(Collection)</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Haar, Charles Monroe, 1920-  -- Photographs</persname>
+            <ref target="des00009c00008" xlink:type="simple">III</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Halprin, Lawrence  -- Correspondence</persname>
+            <ptrgrp>
+               <ref target="des00009c00001" xlink:type="simple">IA, </ref>
+               <ref target="des00009c00002" xlink:type="simple">IB</ref>
+            </ptrgrp>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Handlin, Oscar, 1915-  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Hardee, Covington  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Harris, Patricia Roberts  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Huxtable, Ada Louise  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Jackson, Maynard  -- Correspondence</persname>
+            <ptrgrp>
+               <ref target="des00009c00001" xlink:type="simple">IA, </ref>
+               <ref target="des00009c00002" xlink:type="simple">IB</ref>
+            </ptrgrp>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Jacobs, Jane, 1916-  -- Correspondence</persname>
+            <ptrgrp>
+               <ref target="des00009c00001" xlink:type="simple">IA, </ref>
+               <ref target="des00009c00002" xlink:type="simple">IB</ref>
+            </ptrgrp>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Johnson, Philip C. 1906-  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Jones, Reginald  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Kayden, Jerold S.  -- Correspondence</persname>
+            <ptrgrp>
+               <ref target="des00009c00001" xlink:type="simple">IA, </ref>
+               <ref target="des00009c00006" xlink:type="simple">IF</ref>
+            </ptrgrp>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Kayden, Jerold S.  -- Organization files</persname>
+            <ref xlink:type="simple">(Collection)</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Kennedy, Edward M., 1932-  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="600">Kepes, Gyorgy, 1906-  -- Photographs</persname>
+            <ref target="des00009c00008" xlink:type="simple">III</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Koch, Edward, 1924-  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Kristol, Irving  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Landrieu, Moon  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Lewis, Anthony, 1927-  -- Correspondence</persname>
+            <ref target="des00009c00006" xlink:type="simple">IF</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Lilienthal, David Eli, 1899-19819  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="600">Lincoln, David  -- Photographs</persname>
+            <ref target="des00009c00008" xlink:type="simple">III</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Llewelyn-Davies, Richard, 1912-  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Lynch, Kevin, 1918-  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Marcus, Norman, 1932-  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Marx, Leo, 1919-  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="600">McCue, Gerald Mallon  -- Photographs</persname>
+            <ref target="des00009c00008" xlink:type="simple">III</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">McHarg, Ian  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">McKelvey, Blake, 1903-  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Menzies, Ian  -- Correspondence</persname>
+            <ptrgrp>
+               <ref target="des00009c00001" xlink:type="simple">IA, </ref>
+               <ref target="des00009c00001" xlink:type="simple">IA, </ref>
+               <ref target="des00009c00002" xlink:type="simple">IB</ref>
+            </ptrgrp>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Meyerson, Martin  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Moltke, Willo von  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Morial, Ernest  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="600">Mumford, Lewis, 1895-  -- Bibliographies</persname>
+            <ref target="des00009c00012" xlink:type="simple">VC</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="600">Mumford, Lewis, 1895-  -- Clippings files.</persname>
+            <ptrgrp>
+               <ref target="des00009c00011" xlink:type="simple">VB, </ref>
+               <ref target="des00009c00011" xlink:type="simple">VB</ref>
+            </ptrgrp>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="600">Mumford, Lewis, 1895-  -- Correspondence</persname>
+            <ref target="des00009c00005" xlink:type="simple">IE</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="600">Mumford, Lewis, 1895-  -- Drafts</persname>
+            <ref target="des00009c00007" xlink:type="simple">IIA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="600">Mumford, Lewis, 1895-  -- Organization files</persname>
+            <ref xlink:type="simple">(Collection)</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="600">Mumford, Lewis, 1895-  -- Photographs</persname>
+            <ref target="des00009c00008" xlink:type="simple">III</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="600">Mumford, Lewis, 1895-  -- Publications</persname>
+            <ref target="des00009c00010" xlink:type="simple">VA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="600">Mumford, Sophie  -- Photographs</persname>
+            <ref target="des00009c00008" xlink:type="simple">III</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Newman, Elmer Simon, 1919-  -- Bibliographies</persname>
+            <ref target="des00009c00012" xlink:type="simple">VC</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Pei, I.M., 1917-  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Pell, Claiborne  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Perloff, Harvey  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Portman, John C.  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Reilly, William K.  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Reisman, David A.  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Reps, John  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Reuss, Henry S.  -- Correspondence</persname>
+            <ptrgrp>
+               <ref target="des00009c00001" xlink:type="simple">IA, </ref>
+               <ref target="des00009c00002" xlink:type="simple">IB</ref>
+            </ptrgrp>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="600">Riesman, David A.  -- Photographs</persname>
+            <ref target="des00009c00008" xlink:type="simple">III</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Rockefeller, David  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Schlesinger, Arthur , 1917-  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Scott, Mellier G.  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Sert, Josep Lluis, 1902-1982  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Sert, Josep Lluis, 1902-1982  -- Photographs</persname>
+            <ref target="des00009c00008" xlink:type="simple">III</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Sert, Josep Lluis, 1902-1983  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Shapiro, Irving  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Stubbins, Hugh A., 1912-  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Thompson, Benjamin  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Tree, Marietta, 1917-  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Tsongas, Paul  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Tunnard, Lydia (Mrs. Christopher)  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Venturi, Robert  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Von Eckhardt, Wolf  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Warner, Sam Bass, 1928-  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Weaver, Robert C.  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Webber, Melvin  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Weese, Harry, 1915-  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Whyte, William A.  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Williams, Harrison A.  -- Correspondence</persname>
+            <ref target="des00009c00001" xlink:type="simple">IA</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Winnick, Louis  -- Correspondence</persname>
+            <ref target="des00009c00002" xlink:type="simple">IB</ref>
+         </indexentry>
+         <indexentry>
+            <persname encodinganalog="100">Woolery, Arlo  -- Photographs</persname>
+            <ref target="des00009c00008" xlink:type="simple">III</ref>
+         </indexentry>
+      </index>
+      <index>
+         <head>Corporate Names Index</head>
+         <indexentry>
+            <name encodinganalog="610">Lincoln Institute of Land Policy  -- Correspondence</name>
+            <ref target="des00009c00003" xlink:type="simple">IC</ref>
+         </indexentry>
+         <indexentry>
+            <name encodinganalog="610">Lincoln Institute of Land Policy  -- Organization files</name>
+            <ref xlink:type="simple">(Collection)</ref>
+         </indexentry>
+         <indexentry>
+            <name encodinganalog="610">Lincoln Institute of Land Policy  -- Publications</name>
+            <ref target="des00009c00010" xlink:type="simple">VA</ref>
+         </indexentry>
+      </index>
+      <index>
+         <head>LC Topical Headings Index</head>
+         <indexentry>
+            <name encodinganalog="650">City planners--United States  -- Organization files</name>
+            <ref xlink:type="simple">(Collection)</ref>
+         </indexentry>
+         <indexentry>
+            <name encodinganalog="650">City planning--Awards  -- Organization files</name>
+            <ref xlink:type="simple">(Collection)</ref>
+         </indexentry>
+      </index>
+      <index>
+         <head>Genre / Form Index</head>
+         <indexentry>
+            <genreform encodinganalog="655">Bibliographies / 
+ </genreform>
+            <ref target="des00009c00012" xlink:type="simple">VC</ref>
+         </indexentry>
+         <indexentry>
+            <genreform encodinganalog="655">Clippings files. / 
+ </genreform>
+            <ref target="des00009c00011" xlink:type="simple">VB</ref>
+         </indexentry>
+         <indexentry>
+            <genreform encodinganalog="655">Collages / 
+ </genreform>
+            <ref target="des00009c00009" xlink:type="simple">IV</ref>
+         </indexentry>
+         <indexentry>
+            <genreform encodinganalog="655">Correspondence / 
+ </genreform>
+            <ptrgrp>
+               <ref xlink:type="simple">(Collection), </ref>
+               <ref target="des00009c00001" xlink:type="simple">IA, </ref>
+               <ref target="des00009c00002" xlink:type="simple">IB, </ref>
+               <ref target="des00009c00003" xlink:type="simple">IC, </ref>
+               <ref target="des00009c00005" xlink:type="simple">IE, </ref>
+               <ref target="des00009c00006" xlink:type="simple">IF</ref>
+            </ptrgrp>
+         </indexentry>
+         <indexentry>
+            <genreform encodinganalog="655">Drafts / 
+ </genreform>
+            <ptrgrp>
+               <ref target="des00009c00003" xlink:type="simple">IC, </ref>
+               <ref target="des00009c00007" xlink:type="simple">IIA</ref>
+            </ptrgrp>
+         </indexentry>
+         <indexentry>
+            <genreform encodinganalog="655">Lists / 
+ </genreform>
+            <ref target="des00009c00004" xlink:type="simple">ID</ref>
+         </indexentry>
+         <indexentry>
+            <genreform encodinganalog="655">Organization files / 
+ </genreform>
+            <ref xlink:type="simple">(Collection)</ref>
+         </indexentry>
+         <indexentry>
+            <genreform encodinganalog="655">Photographs / 
+ </genreform>
+            <ptrgrp>
+               <ref target="des00009c00008" xlink:type="simple">III, </ref>
+               <ref target="des00009c00009" xlink:type="simple">IV</ref>
+            </ptrgrp>
+         </indexentry>
+         <indexentry>
+            <genreform encodinganalog="655">Photographs / 
+ </genreform>
+            <ref xlink:type="simple">(Collection)</ref>
+         </indexentry>
+         <indexentry>
+            <genreform encodinganalog="655">Programs / 
+ </genreform>
+            <ref target="des00009c00004" xlink:type="simple">ID</ref>
+         </indexentry>
+         <indexentry>
+            <genreform encodinganalog="655">Publications / 
+ </genreform>
+            <ref target="des00009c00010" xlink:type="simple">VA</ref>
+         </indexentry>
+         <indexentry>
+            <genreform encodinganalog="655">Testimonials / 
+ </genreform>
+            <ref xlink:type="simple">(Collection)</ref>
+         </indexentry>
+      </index>
+      <index>
+         <head>AAT Terms Index</head>
+         <indexentry>
+            <name encodinganalog="654">City planners  -- Organization files</name>
+            <ref xlink:type="simple">(Collection)</ref>
+         </indexentry>
+      </index>
+       <processinfo>
+      <head>Aleph ID</head>
+      <p>008170002</p>
+    </processinfo></archdesc>
+</ead>
