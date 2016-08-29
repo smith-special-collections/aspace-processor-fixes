@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="wordperfect_view.css"?>
+<ead digitalLinks="false" fileSize="24223" maxcomponentid="24" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://hul.harvard.edu/ois/xml/xsd/oasis/ead2002/ead.xsd">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid identifier="009808259">hou01913</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Bryant, Frank Egbert, 1877-1910. Frank Egbert Bryant papers on English ballads, 1906-1910 (MS Am 2421): Guide.</titleproper>
+         </titlestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>
+            <date calendar="gregorian" era="ce">06/16/2006 </date>Bonnie B. Salt </creation>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date calendar="gregorian" era="ce" normal="20141215">12/15/2014</date>
+            <item>Loaded into OASIS</item>
+         </change>
+         <change>
+            <date calendar="gregorian" era="ce">12/09/2014</date>
+            <item>
+               <name>Bonnie Salt </name>updates</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <num>MS Am 2421 </num>
+         <titleproper>Bryant, Frank Egbert, 1877-1910. Frank Egbert Bryant papers on English
+            ballads, 1906-1910: Guide. </titleproper>
+         <author>Houghton Library, Harvard College Library </author>
+         <p>
+            <extptr xlink:href="http://nrs.harvard.edu/urn-3:HUL.OIS:fas_shield" xlink:type="simple"/>
+         </p>
+         <publisher>Harvard University, Cambridge, Massachusetts 02138 USA </publisher>
+         <p>© 2006 The President and Fellows of Harvard College </p>
+         <edition>Last update on 2014 December 9 </edition>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <repository>Houghton Library, Harvard College Library, Harvard University </repository>
+         <physloc>Harvard Depository </physloc>
+         
+         <unitid>MS Am 2421 </unitid>
+         <origination>
+            <persname>Bryant, Frank Egbert, 1877-1910. </persname>
+         </origination>
+         <unittitle>Frank Egbert Bryant papers on English ballads, , </unittitle>
+         <unitdate calendar="gregorian" era="ce" normal="1906/1910">1906-1910. </unitdate>
+         <physdesc>1.3 linear feet (3 boxes) </physdesc>
+         <langmaterial>Collection materials are in <language langcode="eng">English.
+            </language>
+         </langmaterial>
+         <abstract>Papers concerning research on early English ballads by American scholar, Frank
+            Egbert Bryant. </abstract>
+      <physdesc><extent>1 collection</extent></physdesc></did><odd>
+            <p>This collection is shelved offsite at the Harvard Depository. See access restrictions
+               below for additional information. </p>
+         </odd>
+      <processinfo>
+         <p>Processed by: Bonnie B. Salt </p>
+      </processinfo>
+      <acqinfo>
+         <p>No accession number. Gift of <persname>Mrs. Frank Egbert Bryant, </persname>Lawrence,
+            Kansas; received: <date calendar="gregorian" era="ce">1926 </date>July 12. Recataloged
+            from <num>25241.62* </num>
+         </p>
+      </acqinfo>
+      <accessrestrict>
+         <p>There are no restrictions on physical access to this material. Collection is open for
+            research. </p>
+         <p>This collection is not housed at the Houghton Library but is shelved offsite at the
+            Harvard Depository. Retrieval requires advance notice. Readers should check with
+            Houghton Public Services staff to determine what material is offsite and retrieval
+            policies and times. </p>
+      </accessrestrict>
+      <prefercite>
+         <head>Preferred Citation for Publication: </head>
+         <p>Frank Egbert Bryant Papers on English Ballads, 1906-1910 (MS Am 2421 ). Houghton
+            Library, Harvard University. </p>
+      </prefercite>
+      <bioghist>
+         <p>Frank Egbert Bryant received a Litt.B. (1899) and an A.M. (1901) from the University of
+            Michigan. Bryant taught in the Department of English at the University of Kansas from
+            1902-1909. In 1910 he received a Ph.D. in English Philology from Harvard University,
+            having studied with George Lyman Kittredge. Prior to receiving his Ph.D., Bryant had
+            researched English ballad materials in the British Museum, Cambridge University, and
+            Oxford University, to gather information for the writing of his dissertation, <title xlink:type="simple">Chapters toward a history of early English popular balladry.
+            </title>He died on October 20, 1910 and his thesis was published posthumously as: <title xlink:type="simple">A history of English balladry. </title>Boston: R.G. Badger, 1913.
+         </p>
+      </bioghist>
+      <arrangement>
+         <p>Arranged in two series: <list>
+               <item>I. Compositions and miscellany </item>
+               <item>II. Notes on early English ballads </item>
+            </list>
+         </p>
+      </arrangement>
+      <scopecontent>
+         <p>Compositions by Bryant, especially including a typescript version of his 1910 Harvard
+            Ph.D. thesis. Includes student notes taken at Harvard College while attending George
+            Lyman Kittredge's course on English ballads, English 27. Also includes autograph and
+            typescript notes taken, and library call-slips used, while researching early English
+            ballad manuscripts at the University of Cambridge, Oxford University, the British
+            Museum, and other repositories in England. </p>
+      </scopecontent>
+      <relatedmaterial>
+         <p>The University Archives at the University of Kansas also holds some Frank Egbert Bryant
+            personal papers. </p>
+      </relatedmaterial>
+      <dsc type="in-depth">
+         <c id="hou01913c00001" level="series">
+            <did>
+               <unittitle>I. Compositions and miscellany </unittitle>
+            </did>
+            <arrangement>
+               <p>Arranged alphabetically by title. </p>
+            </arrangement>
+            <c id="hou01913c00002" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(1) </unitid>
+                  <unittitle>
+                     <persname>Bryant, Frank Egbert, 1877-1910. </persname>
+                     <title xlink:type="simple">Chapters toward a history of early English popular
+                        balladry</title> : typescript with autograph annotations and revisions,
+                        <unitdate calendar="gregorian" era="ce" normal="1910/1910">1910. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>His 1910 Harvard Ph.D. thesis in English Philology. </p>
+               </odd>
+            </c>
+            <c id="hou01913c00003" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(2) </unitid>
+                  <unittitle>
+                     <persname>Bryant, Frank Egbert, 1877-1910. </persname>
+                     <title xlink:type="simple">An English college student's library</title> :
+                     typescript with autograph revisions, circa <unitdate calendar="gregorian" era="ce" normal="1910/1910">1910. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>
+                     <genreform>Essay </genreform>describing books left behind by students at Oxford
+                     or Cambridge. </p>
+               </odd>
+            </c>
+            <c id="hou01913c00004" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(3) </unitid>
+                  <unittitle>
+                     <persname>Bryant, Frank Egbert, 1877-1910. </persname>Miscellany, <unitdate calendar="gregorian" era="ce" normal="1909/1910">1909 -1910
+                     </unitdate>and undated. </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>Includes: <corpname>Phi Beta Kappa</corpname> card; <genreform>postcards
+                     </genreform>from <corpname>H.J. Goulden (Firm); </corpname>
+                     <geogname>Canterbury</geogname> and the <corpname>Cambridge University Library,
+                     </corpname>and other materials. </p>
+               </odd>
+            </c>
+            <c id="hou01913c00005" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(4) </unitid>
+                  <unittitle>
+                     <persname>Bryant, Frank Egbert, 1877-1910. </persname>Notes on <persname>George
+                        Lyman Kittredge</persname>'s English 27 : autograph manuscript, circa
+                        <unitdate calendar="gregorian" era="ce" normal="1910/1910">1910. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>Class at Havard College on English ballads. </p>
+                  <p>Some notes are in shorthand. </p>
+               </odd>
+            </c>
+            <c id="hou01913c00006" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(5) </unitid>
+                  <unittitle>
+                     <persname>Bryant, Frank Egbert, 1877-1910. </persname>
+                     <title xlink:type="simple">On the limits of descriptive writing apropos of
+                        Lessing's Laocoon</title> : autograph manuscript, typescript carbon, circa
+                        <unitdate calendar="gregorian" era="ce" normal="1906/1906">1906. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>Labeled: "Laocoon appendices FEB copy." </p>
+                  <p>Partial text chapters and appendices for this paper published in: <emph render="italic">Contributions to rhetorical thinking. </emph>Ann Arbor,
+                     Mich.: Ann Arbor Press, 1906. </p>
+               </odd>
+            </c>
+            <c id="hou01913c00007" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(6) </unitid>
+                  <unittitle>
+                     <persname>Bryant, Frank Egbert, 1877-1910. </persname>
+                     <title xlink:type="simple">The organs of speech</title> : typescript and
+                     typescript carbon (both with autograph revisions), undated. </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>Incomplete copy. Introduction and section with this title only. </p>
+               </odd>
+            </c>
+            <c id="hou01913c00008" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(7) </unitid>
+                  <unittitle>
+                     <persname>Bryant, Frank Egbert, 1877-1910. </persname>
+                     <title xlink:type="simple">The relation of the standard language to the
+                        population of London</title> : typescript and typescript carbon (both with
+                     autograph revisions), <unitdate calendar="gregorian" era="ce" normal="1907/1907">1907 </unitdate>Dec. </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>Paper for <corpname>Modern Language Association. </corpname>
+                  </p>
+               </odd>
+            </c>
+         </c>
+         <c id="hou01913c00009" level="series">
+            <did>
+               <unittitle>II. Notes on early English ballads </unittitle>
+            </did>
+            <scopecontent>
+               <p>Notes by <persname>Frank Egbert Bryant </persname>taken on manuscripts while
+                  researching early English ballad manuscripts at the <corpname>University of
+                     Cambridge</corpname>, <corpname>Oxford University</corpname>, the<corpname>
+                     British Museum, </corpname>and other repositories in England. Notes were left
+                  in the order received in the repository. Each grouping reflects package as
+                  received. Also included with notes are library call slips from various British
+                  repositories. </p>
+            </scopecontent>
+            <c id="hou01913c00010" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(8) </unitid>
+                  <unittitle>Bryant, Frank Egbert, 1877-1910. Notes, group 1 : autograph manuscript,
+                     circa <unitdate calendar="gregorian" era="ce" normal="1910/1910">1910. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>Includes headings: Caxton; The pearl; Mullinger; London; population; health;
+                     plague; and others. </p>
+               </odd>
+            </c>
+            <c id="hou01913c00011" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(9) </unitid>
+                  <unittitle>Bryant, Frank Egbert, 1877-1910. Notes, group 2 : autograph manuscript,
+                     circa <unitdate calendar="gregorian" era="ce" normal="1910/1910">1910. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>Marsbach Neuenglinche ... In German. </p>
+               </odd>
+            </c>
+            <c id="hou01913c00012" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(10) </unitid>
+                  <unittitle>Bryant, Frank Egbert, 1877-1910. Notes, group 3 : autograph manuscript,
+                     circa <unitdate calendar="gregorian" era="ce" normal="1910/1910">1910. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>Includes headings: Chappell III; Roxburgh; Dryden's miscellany; Wit and mirth;
+                     Pills to purge melancholy; Hume of Godscraft; Suckling ballads; and Henry Bald.
+                  </p>
+               </odd>
+            </c>
+            <c id="hou01913c00013" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(11) </unitid>
+                  <unittitle>Bryant, Frank Egbert, 1877-1910. Notes, group 4 : autograph manuscript,
+                     circa <unitdate calendar="gregorian" era="ce" normal="1910/1910">1910. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>Includes headings: Collection of Old Ballads; Watts, The musical miscellany;
+                     vocal miscellany 1738; A new miscellany 1730; and The merry musician 1730. </p>
+               </odd>
+            </c>
+            <c id="hou01913c00014" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(12) </unitid>
+                  <unittitle>Bryant, Frank Egbert, 1877-1910. Notes, group 5 : autograph manuscript,
+                     typescript carbon, circa <unitdate calendar="gregorian" era="ce" normal="1910/1910">1910. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>Includes headings: William of Malmesbury; Edric &amp; Walthop; Fulk Fitz-Warin;
+                     Eustace the Monk; Hereward; Wright, Fulk Fitz-Warin; Robin Hood; Randolf Earl
+                     of Chester, Clawson &amp; Hale's Percy; Tale of Gawelyn; Judas; Dunbar; Sir
+                     William Wallace; Gale; Anchineleck ms.; and others. </p>
+               </odd>
+            </c>
+            <c id="hou01913c00015" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(13) </unitid>
+                  <unittitle>Bryant, Frank Egbert, 1877-1910. Notes, group 6 : autograph manuscript,
+                     circa <unitdate calendar="gregorian" era="ce" normal="1910/1910">1910. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>Includes headings: Ballad in Chaucer; Henry of Hungtington; Comte ballad; John
+                     Skelton; Laurence Minot; Lazamon; Waltheof; Trautmann; Percy Society;
+                     definition of term ballad; suppased ballads; Stall-ballad title; Furnivall;
+                     Schiffer; Freeman; Judas; and Wright. </p>
+               </odd>
+            </c>
+            <c id="hou01913c00016" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(14) </unitid>
+                  <unittitle>Bryant, Frank Egbert, 1877-1910. Notes, group 7 : autograph manuscript,
+                     circa <unitdate calendar="gregorian" era="ce" normal="1910/1910">1910. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>Includes headings: Charmer; Musical miscellany; Chappell; Herd; Garlands;
+                     Aldermary; Joseph Ritson; Glenriddell; Scott's Minstrelsy; Pinkerton;
+                     Tewkisbury; West's collections; Morison; Wood-Lark; Riddell; Muse in good
+                     humour; Foundling hospital for wit; and others. </p>
+               </odd>
+            </c>
+            <c id="hou01913c00017" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(15) </unitid>
+                  <unittitle>Bryant, Frank Egbert, 1877-1910. Notes, group 8 : autograph manuscript,
+                     circa <unitdate calendar="gregorian" era="ce" normal="1910/1910">1910. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>Includes headings: Lenore, Newell. </p>
+               </odd>
+            </c>
+            <c id="hou01913c00018" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(16) </unitid>
+                  <unittitle>Bryant, Frank Egbert, 1877-1910. Notes, group 9 : autograph manuscript,
+                     circa <unitdate calendar="gregorian" era="ce" normal="1910/1910">1910. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>Includes headings: Chappell; Roxburghe; Bagford ballads; Wood ballads; Douce
+                     ballads; and others. </p>
+               </odd>
+            </c>
+            <c id="hou01913c00019" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(17) </unitid>
+                  <unittitle>Bryant, Frank Egbert, 1877-1910. Notes, group 10 : autograph
+                     manuscript, typescript, circa <unitdate calendar="gregorian" era="ce" normal="1910/1910">1910. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>Includes headings: Percy; Tom Thumb; Hearne; Addison; Garlands; Orpheus;
+                     Dodsley; and others. </p>
+               </odd>
+            </c>
+            <c id="hou01913c00020" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(18) </unitid>
+                  <unittitle>Bryant, Frank Egbert, 1877-1910. Notes, group 11 : autograph
+                     manuscript, circa <unitdate calendar="gregorian" era="ce" normal="1910/1910">1910. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>Includes headings: Elizabethean plays; Thomason tracts; John Hillon; Gifford;
+                     Rowlands; Shirburn; Walton; Pepys; Cotton; and others. </p>
+               </odd>
+            </c>
+            <c id="hou01913c00021" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(19) </unitid>
+                  <unittitle>Bryant, Frank Egbert, 1877-1910. Notes, group 12 : autograph
+                     manuscript, circa <unitdate calendar="gregorian" era="ce" normal="1910/1910">1910. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>Includes headings: Sir Andrew Barton; Deloney; Nashe; Wager; Chuttle; Sidney;
+                     Cotton mss; Chambers; and others. </p>
+               </odd>
+            </c>
+            <c id="hou01913c00022" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(20) </unitid>
+                  <unittitle>Bryant, Frank Egbert, 1877-1910. Notes, group 13 : autograph
+                     manuscript, circa <unitdate calendar="gregorian" era="ce" normal="1910/1910">1910. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>Includes headings: Child ballads; Harleian ms; Lazamon's; Robert of Gloucester;
+                     Piers Plowman; Herd; Riston; and others. </p>
+               </odd>
+            </c>
+            <c id="hou01913c00023" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(21) </unitid>
+                  <unittitle>Bryant, Frank Egbert, 1877-1910. Notes, group 14 : autograph
+                     manuscript, circa <unitdate calendar="gregorian" era="ce" normal="1910/1910">1910. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>1 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>Includes headings: Riddles; Harleian ms; Sloane; Wright; Percy; Fairfax; and
+                     many others. </p>
+               </odd>
+            </c>
+            <c id="hou01913c00024" level="otherlevel" otherlevel="unspecified">
+               <did>
+                  <unitid>(22) </unitid>
+                  <unittitle>Bryant, Frank Egbert, 1877-1910. Notes, group 15 : autograph
+                     manuscript, circa <unitdate calendar="gregorian" era="ce" normal="1910/1910">1910. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>2 folders</extent>
+                  </physdesc>
+               </did>
+               <odd>
+                  <p>Includes headings: Percy; Watson; Burton; Beaumont and Fletcher; Stubbs; Hine;
+                     Chaucer; Ramsay; Elstab; and others. </p>
+               </odd>
+            </c>
+         </c>
+      </dsc>
+       <processinfo>
+      <head>Aleph ID</head>
+      <p>009808259</p>
+    </processinfo></archdesc>
+</ead>

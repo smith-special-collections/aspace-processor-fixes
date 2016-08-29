@@ -1,7 +1,7 @@
 # coding: utf-8
 # Because ArchivesSpace doesn't handle multiple unitids,
 # concatenate their contents, using ‡ (DOUBLE DAGGER) as a separator
-fix_for 'unitid-1', depends_on: ['noempty-1', 'noempty-2', 'unidid-2'] do
+fix_for 'unitid-1', depends_on: ['noempty-1', 'noempty-2', 'unitid-2'] do
   @xml.xpath("//did[count(./unitid) > 1]").each do |did|
     new_id = Nokogiri::XML::Node.new('unitid', @xml)
 

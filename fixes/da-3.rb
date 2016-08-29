@@ -9,6 +9,7 @@ fix_for 'da-3', depends_on: ['noempty-1']  do
           //descgrp[(@type and @type != 'add') or (not(normalize-space(@type)) and @encodinganalog = '544')]/note|
           //descgrp[(@type and @type != 'add') or (not(normalize-space(@type)) and @encodinganalog = '544')]/prefercite|
           //descgrp[(@type and @type != 'add') or (not(normalize-space(@type)) and @encodinganalog = '544')]/processinfo|
+          //descgrp[(@type and @type != 'add') or (not(normalize-space(@type)) and @encodinganalog = '544')]/separatedmaterial|
           //descgrp[(@type and @type != 'add') or (not(normalize-space(@type)) and @encodinganalog = '544')]/userestrict"
   @xml.xpath(path).each do |el|
     descgrp = el.parent
