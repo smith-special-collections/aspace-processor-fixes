@@ -4,10 +4,10 @@
 #       unittitle OR unitid OR container OR unitdate + daodesc if it has a defined replacement value
 fix_for "dao-1", depends_on: ['noempty-1']  do
   @xml.xpath("//dao[not(@xlink:title)]").each do |el|
-    parent = el.xpath("ancestor::did|ancestor::c|ancestor::archdesc").last
-    raise Fixes::Failure.new('No suitable parent found to take title from.') unless parent
+    title_source = el.at_xpath('../did') || el.xpath("ancestor::did|ancestor::c[./did]|ancestor::archdesc").last
+    raise Fixes::Failure.new('No suitable title_source or sibling did found to take title from.') unless title_source
 
-    did = (parent.name == 'did') ? parent : parent.at_xpath('./did')
+    did = (title_source.name == 'did') ? title_source : title_source.at_xpath('./did')
     daodesc = el.at_xpath('./daodesc')
 
     daodesc_content = daodesc ? daodesc.content.gsub(/\s+/, ' ').strip : ""
@@ -25,7 +25,7 @@ fix_for "dao-1", depends_on: ['noempty-1']  do
     if appendage.nil? && !daodesc_content.blank?
       title = daodesc_content
     else
-      if parent
+      if title_source
         title = case
                 when (ns = did.xpath('./unittitle')).count > 0
                   ns.text
@@ -46,7 +46,6 @@ fix_for "dao-1", depends_on: ['noempty-1']  do
     end
     el['xlink:title'] = title
   end
-
 end
 
 # Hash of "canonical" <daodesc> values, where:
