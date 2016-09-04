@@ -35,8 +35,9 @@ rescue Fixes::UnparseableExtent => e
   pd = extent.parent
   new_pd = Nokogiri::XML::Node.new('physdesc', extent.document)
   new_pd.children = extent.children
+  extent.remove
   pd.add_previous_sibling(new_pd)
-  extent.parent.remove if extent.parent.xpath('./extent').count == 0
+  pd.remove if pd.xpath('./extent').count == 0 && pd.content.strip.blank?
   return false
 end
 
