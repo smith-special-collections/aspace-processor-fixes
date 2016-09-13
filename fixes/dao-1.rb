@@ -95,14 +95,14 @@ unless defined?(::Fixes::CANONICAL_GENERIC_DAODESC_VALUES) == "constant"
     /\AClick here for color digital images\.?\z/ => nil,
     /\AClick here for digital copy of positive microfilm \.?\z/ => ": Images from microfilm",
     /\AClick here for digital copy\.?\z/ => nil,
-    /\AClick here for online access \.?\z/ => nil,
-    /\AClick here to open image in a new window \.?\z/ => nil,
-    /\AClick here to open in a new window \.?\z/ => nil,
+    /\AClick here for online access\.?\z/ => nil,
+    /\AClick here to open image in a new window\.?\z/ => nil,
+    /\AClick here to open in a new window\.?\z/ => nil,
     /\AClick here to see image\.?\z/ => nil,
     /\AClick here to see the digital surrogate of this invoice book\.?\z/ => ": Invoice book",
     /\AClick here to see the digital surrogate of this journal\.?\z/ => ": Journal",
     /\AClick here to see the digital surrogate of this letter book\.?\z/ => ": Letter book",
-    /\AClick here to view digital surrogate \.?\z/ => nil,
+    /\AClick here to view digital surrogate\.?\z/ => nil,
     /\AClick here to view images\.?\z/ => nil,
     /\AClick this link to access the digitized documents\.?\z/ => nil,
     /\AClick to listen to audio file\.?\z/ => ": Audio file",
@@ -132,7 +132,7 @@ end
 unless defined?(::Fixes::CANONICAL_GENERIC_DD_VALUES_WITH_COMPLEX_BEHAVIOR) == 'constant'
   ::Fixes::CANONICAL_GENERIC_DD_VALUES_WITH_COMPLEX_BEHAVIOR = {
     /\ANetworked resource available to users with a valid Harvard ID\.?\z/ => nil, # should be accessrestrict?
-    /\AFor a full description consult HOLLIS \.?\z/ => nil,                        # shoult be extref
+    /\AFor a full description consult HOLLIS\.?\z/ => nil,                        # shoult be extref
     # Rest Should be relatedmaterials/extref?
     /\ADigitized version available for viewing on archive.org\.?\z/ => nil,
     /\ADigitized version available for viewing on YouTube\.?\z/ => nil,
