@@ -32,18 +32,17 @@ def Fixes.parse_extent(extent)
   return true
 
 rescue Fixes::UnparseableExtent => e
-  pd = extent.parent
-  new_pd = Nokogiri::XML::Node.new('physdesc', extent.document)
-  new_pd.children = extent.children
-  extent.remove
-  pd.add_previous_sibling(new_pd)
-  pd.remove if pd.xpath('./extent').count == 0 && pd.content.strip.blank?
+  if extent.parent.first_element_child == extent
+    extent.add_previous_sibling(<<-FRAGMENT.strip_heredoc + "\n")
+      <extent>1 collection</extent>
+    FRAGMENT
+  end
   return false
 end
 
 class ::Fixes
   class UnparseableExtent < StandardError
-    # Custom error used to exit
+    # Custom error used to exit parse_extent
   end
 end
 
