@@ -124,18 +124,12 @@ unless defined?(::Fixes::CANONICAL_GENERIC_DAODESC_VALUES) == "constant"
     /\ASee digital images\.?\z/ => nil,
     /\ASee selected digital images\.?\z/ => ": Selected images",
     /\AVerso: Click for color digital image\.?\z/ => ": Verso",
-    /\AVerso: click for larger view\.?\z/ => ": Verso"
+    /\AVerso: click for larger view\.?\z/ => ": Verso",
+    /\ADigitized version available for viewing on archive\.org\.?\z/ => ': Digitized version available for viewing on archive.org',
+    /\ADigitized version available for viewing on YouTube\.?\z/ => ': Digitized version available for viewing on YouTube',
+    /\ANetworked resource available to users with a valid Harvard ID\.?\z/ => ': Networked resource available to users with a valid Harvard ID',
+    /\AOther digitized versions available for listening through Pacific Film Archive Audio Recordings Collection on archive\.org\.?\z/ =>
+      ': Other digitized versions available for listening through Pacific Film Archive Audio Recordings Collection on archive.org'
   }
 
-end
-
-unless defined?(::Fixes::CANONICAL_GENERIC_DD_VALUES_WITH_COMPLEX_BEHAVIOR) == 'constant'
-  ::Fixes::CANONICAL_GENERIC_DD_VALUES_WITH_COMPLEX_BEHAVIOR = {
-    /\ANetworked resource available to users with a valid Harvard ID\.?\z/ => nil, # should be accessrestrict?
-    /\AFor a full description consult HOLLIS\.?\z/ => nil,                        # shoult be extref
-    # Rest Should be relatedmaterials/extref?
-    /\ADigitized version available for viewing on archive.org\.?\z/ => nil,
-    /\ADigitized version available for viewing on YouTube\.?\z/ => nil,
-    /\AOther digitized versions available for listening through Pacific Film Archive Audio Recordings Collection on archive.org\.?\z/ => nil
-  }
 end
