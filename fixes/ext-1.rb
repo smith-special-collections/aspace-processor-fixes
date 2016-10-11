@@ -32,10 +32,17 @@ def Fixes.parse_extent(extent)
   return true
 
 rescue Fixes::UnparseableExtent => e
-  if extent.parent.first_element_child == extent
-    extent.add_previous_sibling(<<-FRAGMENT.strip_heredoc + "\n")
-      <extent>1 collection</extent>
-    FRAGMENT
+  if extent.parent.parent.name == 'archdesc'
+    if extent.parent.first_element_child == extent
+      extent.add_previous_sibling(<<-FRAGMENT.strip_heredoc + "\n")
+        <extent>1 collection</extent>
+      FRAGMENT
+    end
+  else # If we're not at collection level, demote to physdesc
+    extent.name = 'physdesc'
+    pd = extent.parent
+    pd.add_previous_sibling extent
+    pd.remove
   end
   return false
 end
@@ -49,7 +56,7 @@ end
 # Silence const redef warnings if reloading - THIS IS BAD AND I FEEL BAD ABOUT IT
 warn_level = $VERBOSE
 $VERBOSE = nil
-::Fixes::EXTENT_APPROX_RE = /\A(ca\.|circa|approx.|approximately)\s*/i
+::Fixes::EXTENT_APPROX_RE = /\A(circa|ca\.?|approximately|approx\.?)\s*/i
 
 ::Fixes::CANONICAL_EXTENT_MAPPINGS = {
   '3.5" floppy disks' => 'floppy disks (three-and-one-half inch)',
