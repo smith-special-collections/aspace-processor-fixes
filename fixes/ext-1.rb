@@ -32,7 +32,7 @@ def Fixes.parse_extent(extent)
   return true
 
 rescue Fixes::UnparseableExtent => e
-  if extent.parent.parent.name == 'archdesc'
+  if extent.parent.parent.parent.name == 'archdesc'
     if extent.parent.first_element_child == extent
       extent.add_previous_sibling(<<-FRAGMENT.strip_heredoc + "\n")
         <extent>1 collection</extent>
