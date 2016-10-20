@@ -1,20 +1,25 @@
 # Parses all extents - if they fit requirements, GREAT! if they don't,
 # demote extent to physdesc
 fix_for 'ext-1', preflight: true do
+
   valid_exists = false
+
   @xml.xpath('//physdesc[extent]').map do |physdesc|
     toplevel = physdesc.parent.parent.name == 'archdesc'
     successes = physdesc.xpath('./extent').map do |extent|
       ::Fixes.parse_extent(extent)
     end
-    if toplevel && successes.none?
-      @xml.at_xpath('//archdesc/did/physdesc/extent').add_previous_sibling(
-        Nokogiri::XML::DocumentFragment.new(<<-FRAGMENT.strip_heredoc + "\n", @xml))
-          <extent>1 collection</extent>
-        FRAGMENT
-    end
+
+    valid_exists = true if successes.any? && toplevel
   end
 
+
+  if !valid_exists
+    @xml.at_xpath('//archdesc/did/physdesc/extent').add_previous_sibling(
+      Nokogiri::XML::DocumentFragment.new(@xml, <<-FRAGMENT.strip_heredoc + "\n"))
+        <extent>1 collection</extent>
+      FRAGMENT
+  end
 end
 
 def Fixes.parse_extent(extent)
