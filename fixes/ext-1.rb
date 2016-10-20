@@ -1,48 +1,56 @@
 # Parses all extents - if they fit requirements, GREAT! if they don't,
 # demote extent to physdesc
 fix_for 'ext-1', preflight: true do
-  @xml.xpath('//physdesc/extent').each do |extent|
-    ::Fixes.parse_extent(extent)
+  valid_exists = false
+  @xml.xpath('//physdesc[extent]').map do |physdesc|
+    toplevel = physdesc.parent.parent.name == 'archdesc'
+    successes = physdesc.xpath('./extent').map do |extent|
+      ::Fixes.parse_extent(extent)
+    end
+    if toplevel && successes.none?
+      @xml.at_xpath('//archdesc/did/physdesc/extent').add_previous_sibling(
+        Nokogiri::XML::DocumentFragment.new(<<-FRAGMENT.strip_heredoc + "\n", @xml))
+          <extent>1 collection</extent>
+        FRAGMENT
+    end
   end
+
 end
 
 def Fixes.parse_extent(extent)
-  content = extent.content
+  catch :unparseable do
+    content = extent.content
 
-  stripped = content.sub(/\A\/ Quantity: /, '')     # Special case display str
-  stripped.sub!(/\A(\.\s)?[\s,)(]+/, '')            # Leading punc
-  approx = stripped.match(Fixes::EXTENT_APPROX_RE)
-  if approx
-    stripped.sub!(Fixes::EXTENT_APPROX_RE, '')
-    extent.parent.after('<physdesc>Extent is approximate.</physdesc>')
-  end
-  stripped.sub!(/[\s.,):;]+\z/, '')                 # Trailing punc
-
-  count = (m = stripped.match(/^((?:(?:\d{1,3},?)+)?(?:\.\d+)?)\s+/)) && m[1]
-  raise ::Fixes::UnparseableExtent.new("No leading count") unless count
-
-  count.gsub!(/,/, '') # Commas are bad practice
-  measurement = m.post_match.strip
-  if ::Fixes::CANONICAL_EXTENT_MAPPINGS.key? measurement.downcase
-    measurement = ::Fixes::CANONICAL_EXTENT_MAPPINGS[measurement.downcase]
-  end
-  raise Fixes::UnparseableExtent.new("Unlawful measurement") unless ::Fixes::CANONICAL_EXTENTS.include? measurement
-
-  extent.content = "#{count} #{measurement}"
-  return true
-
-rescue Fixes::UnparseableExtent => e
-  if extent.parent.parent.parent.name == 'archdesc'
-    if extent.parent.first_element_child == extent
-      extent.add_previous_sibling(<<-FRAGMENT.strip_heredoc + "\n")
-        <extent>1 collection</extent>
-      FRAGMENT
+    stripped = content.sub(/\A\/ Quantity: /, '')     # Special case display str
+    stripped.sub!(/\A(\.\s)?[\s,)(]+/, '')            # Leading punc
+    approx = stripped.match(Fixes::EXTENT_APPROX_RE)
+    if approx
+      stripped.sub!(Fixes::EXTENT_APPROX_RE, '')
+      extent.parent.after('<physdesc>Extent is approximate.</physdesc>')
     end
-  else # If we're not at collection level, demote to physdesc
+    stripped.sub!(/[\s.,):;]+\z/, '')                 # Trailing punc
+
+    count = (m = stripped.match(/^((?:(?:\d{1,3},?)+)?(?:\.\d+)?)\s+/)) && m[1]
+    throw :unparseable unless count
+
+    count.gsub!(/,/, '') # Commas are bad practice
+    measurement = m.post_match.strip
+    if ::Fixes::CANONICAL_EXTENT_MAPPINGS.key? measurement.downcase
+      measurement = ::Fixes::CANONICAL_EXTENT_MAPPINGS[measurement.downcase]
+    end
+    throw :unparseable unless ::Fixes::CANONICAL_EXTENTS.include? measurement
+
+    extent.content = "#{count} #{measurement}"
+    return true
+  end
+
+  # unparseable handled here
+  unless extent.parent.parent.parent.name == 'archdesc'
+    # If we're not at collection level, demote to physdesc
     extent.name = 'physdesc'
     pd = extent.parent
     pd.add_previous_sibling extent
-    pd.remove
+    pd.remove if pd.element_children.empty? && pd.content.strip.blank?
   end
   return false
 end
