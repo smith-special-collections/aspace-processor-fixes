@@ -1,4 +1,4 @@
-fix_for "dua-2", depends_on: ['noempty-1'] do
+fix_for "dua-2", depends_on: ['noempty-1', 'unittitle-3'] do
   @xml.xpath('//unitdate[
     (contains(translate(./text(), "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz"), "circa") or
      contains(translate(./text(), "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz"), "ca") or
