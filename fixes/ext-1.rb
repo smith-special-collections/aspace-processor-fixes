@@ -26,6 +26,17 @@ def Fixes.parse_extent(extent)
   catch :unparseable do
     content = extent.content
 
+    # If content of extent is only numbers, and genreform follows,
+    #   append genreform content and kill genreform
+    if num = content.strip.match(/\A\d+\z/)
+      gform = extent.next_element
+      if gform && gform.name == 'genreform'
+        content = "#{content.strip} #{gform.content}"
+        extent.content = content
+        gform.remove
+      end
+    end
+
     stripped = content.sub(/\A\/ Quantity: /, '')     # Special case display str
     stripped.sub!(/\A(\.\s)?[\s,)(]+/, '')            # Leading punc
     approx = stripped.match(Fixes::EXTENT_APPROX_RE)
