@@ -2,6 +2,15 @@
 # demote extent to physdesc
 fix_for 'ext-1', preflight: true do
 
+  # For physdescs with mixed content, strip tags from content and wrap them in <extent>
+  @xml.xpath('//physdesc[* and normalize-space(text())]').each do |pd|
+    contents = pd.content
+    pd.content = ''
+    pd.add_child(Nokogir::XML::DocumentFragment.new(@xml, <<-FRAGMENT.strip_heredoc))
+      <extent>#{contents}</extent>
+    FRAGMENT
+  end
+
   valid_exists = false
 
   @xml.xpath('//physdesc[extent]').map do |physdesc|
