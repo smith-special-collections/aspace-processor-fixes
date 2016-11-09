@@ -4,16 +4,16 @@ fix_for 'ext-1', preflight: true do
 
   # For physdescs with mixed content, strip tags from content and wrap them in <extent>
   @xml.xpath('//physdesc[* and normalize-space(text())]').each do |pd|
-    contents = pd.content
+    contents = @xml.encode_special_chars(pd.content)
     pd.content = ''
-    pd.add_child(Nokogir::XML::DocumentFragment.new(@xml, <<-FRAGMENT.strip_heredoc))
+    pd.add_child(Nokogiri::XML::DocumentFragment.new(@xml, <<-FRAGMENT.strip_heredoc))
       <extent>#{contents}</extent>
     FRAGMENT
   end
 
   valid_exists = false
 
-  @xml.xpath('//physdesc[extent]').map do |physdesc|
+  @xml.xpath('//physdesc[extent]').each do |physdesc|
     toplevel = physdesc.parent.parent.name == 'archdesc'
     successes = physdesc.xpath('./extent').map do |extent|
       ::Fixes.parse_extent(extent)
@@ -24,10 +24,18 @@ fix_for 'ext-1', preflight: true do
 
 
   if !valid_exists
-    @xml.at_xpath('//archdesc/did/physdesc/extent').add_previous_sibling(
-      Nokogiri::XML::DocumentFragment.new(@xml, <<-FRAGMENT.strip_heredoc + "\n"))
-        <extent>1 collection</extent>
+    toplevel_extent = @xml.at_xpath('//archdesc/did/physdesc/extent')
+    if !toplevel_extent
+      did = @xml.at_xpath('//archdesc/did')
+      did.prepend_child(Nokogiri::XML::DocumentFragment.new(@xml, <<-FRAGMENT.strip_heredoc + "\n"))
+        <physdesc><extent>1 collection</extent></physdesc>
       FRAGMENT
+    else
+      toplevel_extent.add_previous_sibling(
+        Nokogiri::XML::DocumentFragment.new(@xml, <<-FRAGMENT.strip_heredoc + "\n"))
+          <extent>1 collection</extent>
+        FRAGMENT
+    end
   end
 end
 
