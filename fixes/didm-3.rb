@@ -3,7 +3,7 @@ fix_for "didm-3", depends_on: ['dua-1', 'noempty-1'] do
 
   if uds.empty?
     ud_fragment = <<-FRAGMENT.strip
-      <unitdate normal="0000/9999">0000-9999</unitdate>
+      <unitdate normal="0000/2999">0000-2999</unitdate>
     FRAGMENT
   else
     dates = uds.map do|el|
