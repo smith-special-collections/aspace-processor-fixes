@@ -1,5 +1,5 @@
 # Rewrite bibliography with nested list as bibliography with series of bibrefs
-fix_for 'bibliography-1', depends_on: ['noempty-1'] do
+fix_for 'bibliography-1', depends_on: ['noempty-1', 'nested-list-1'] do
   @xml.xpath('//bibliography[./list]').each do |bib|
     # turn everything into bibrefs
     items = Nokogiri::XML::NodeSet.new(@xml,

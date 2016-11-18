@@ -353,6 +353,10 @@
       <assert test="not(//*:item/*:list)" diagnostics="nested-list-1">
         'item' elements with 'list' element children are not properly imported by ArchivesSpace.  'list' elements should be flattened so that no nesting occurs.
       </assert>
+
+      <assert test="not(//*:item/*[not(./self::list)]//list)" diagnostics="nested-list-2">
+        'item' elements with non-'list' children which have 'list' children are not properly imported by ArchivesSpace.  'list' elements should be flattened so that no nesting occurs.
+      </assert>
     </rule>
   </pattern>
 
@@ -408,6 +412,7 @@ Content: encodinganalog value is '<value-of select="./@encodinganalog" />', loca
     <diagnostic id="ptrgrp-1">Ref-number: 53</diagnostic>
     <diagnostic id="daogrp-2">Ref-number: 63</diagnostic>
     <diagnostic id="nested-list-1">Ref-number: 20.1</diagnostic>
+    <diagnostic id="nested-list-2">Ref-number: 20.2</diagnostic>
   </diagnostics>
 
 </schema>
