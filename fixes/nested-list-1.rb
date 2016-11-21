@@ -19,7 +19,6 @@ def process_sublist_item(item, depth = 1)
 
   items = item_copy.xpath('./list').each do |list|
 
-
     text = list.
            xpath('./preceding-sibling::node()').
            reverse.
@@ -61,5 +60,5 @@ def process_sublist_item(item, depth = 1)
       end
     end
   end
-  return Nokogiri::XML::NodeSet.new(item.document, results)
+  return Nokogiri::XML::NodeSet.new(item.document, results.flatten)
 end
