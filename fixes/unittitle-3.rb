@@ -1,4 +1,4 @@
-fix_for 'unittitle-3', depends_on: ['noempty-1', 'noempty-2', 'nested-list-1', 'nested-list-2'] do
+fix_for 'unittitle-3', depends_on: ['noempty-1', 'noempty-2'] do
   @xml.xpath('//unittitle[.//unitdate]').each do |ut|
     # Because we're moving uds into following-sibling position of ut,
     #   process unitdates in reverse
