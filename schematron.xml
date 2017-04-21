@@ -259,7 +259,7 @@
     <rule context="//*:unittitle">
       <!-- 'unittitle' elements -->
       <assert test="not(./@id = //*:ref/@target)" diagnostics="unittitle-2">
-        'ref' elements must not point at 'unititle' elements.  'target' attribute should be rewritten to point at parent 'c'.
+        'ref' elements must not point at 'unittitle' elements.  'target' attribute should be rewritten to point at parent 'c'.
       </assert>
 
       <assert test="not(.//*:unitdate)" diagnostics="unittitle-3">
