@@ -22,6 +22,7 @@
     <active pattern="bibliography-automated" />
     <active pattern="ptrgrp-automated" />
     <active pattern="nested-list-automated" />
+    <active pattern="dsc-automated" />
   </phase>
   <phase id="manual">
     <active pattern="descgrp-manual" />
@@ -360,6 +361,14 @@
     </rule>
   </pattern>
 
+  <pattern id="dsc-automated">
+    <rule context="/*:ead/*:archdesc">
+      <!-- dsc elements -->
+      <assert test="not(./*:dsc[@type='analyticover'] and ./*:dsc[@type='in-depth'])" diagnostics="dsc-duped-cs-1">
+        ArchivesSpace doesn't understand the relation of 'analyticover' and 'in-depth' 'dsc' elements, and produces an archival object per 'c' element. Data within 'c' elements within in-depth and analyticover 'dsc' elements should be combined, producing a single hierarchy of 'c' elements within a 'dsc' element of type 'combined'.
+      </assert>
+    </rule>
+  </pattern>
   <diagnostics>
     <diagnostic id="enm-1">Ref-number: 18
     Content: Value is "<value-of select="." />"</diagnostic>
@@ -413,6 +422,7 @@ Content: encodinganalog value is '<value-of select="./@encodinganalog" />', loca
     <diagnostic id="daogrp-2">Ref-number: 63</diagnostic>
     <diagnostic id="nested-list-1">Ref-number: 20.1</diagnostic>
     <diagnostic id="nested-list-2">Ref-number: 20.2</diagnostic>
+    <diagnostic id="dsc-duped-cs-1">Ref-number: SC1</diagnostic>
   </diagnostics>
 
 </schema>
