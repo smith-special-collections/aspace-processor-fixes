@@ -196,7 +196,7 @@
   </pattern>
 
   <pattern id="c-automated">
-    <rule context="//*:c">
+    <rule context="//*:c|//*:c01|//*:c02|//*:c03|//*:c04|//*:c05|//*:c06|//*:c07|//*:c08|//*:c09|//*:c10|//*:c11|//*:c12 ">
       <!-- 'c' element -->
       <assert test=".[(@level and @level != 'otherlevel') or (@level = 'otherlevel' and normalize-space(@otherlevel))]" diagnostics="c-1">
         'c' element must contain a value in its 'level' attribute.  If that value is 'otherlevel', the 'c' must also contain an 'otherlevel' attribute.
